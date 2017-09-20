@@ -1,0 +1,50 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+function cv_tuyendung_menu() {
+  $items = array();
+
+  //TUYEN DUNG
+  $items['them-moi/thong-tin-cong-ty'] = array(
+    'title' => 'Thêm mới công ty',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('them_congty_form'),
+    'access arguments' => array(1),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'inc/tuyendung.inc',
+  );
+  $items['quanly/thong-tin-cong-ty'] = array(
+    'title' => 'Thông tin công ty',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('thongtin_congty_form'),
+    'access arguments' => array(1),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'inc/tuyendung.inc',
+  );
+  $items['tin-tuyen-dung/tao-moi'] = array(
+    'title' => 'Tạo tin tuyển dụng mới',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('dangtin_tuyendung_form'),
+    'access arguments' => array(1),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'inc/tuyendung.inc',
+  );
+//END TUYEN DUNG
+
+  //FILTER | DEBUG
+  $items['timkiem-ung-vien'] = array(
+    'title' => 'Tim kiem',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('timkiem_pages'),
+    'access arguments' => array(1),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'inc/filter.inc',
+  );
+  //END DEBUG
+
+  return $items;
+}
+function cv_tuyendung_permission() {
+  return array();
+}

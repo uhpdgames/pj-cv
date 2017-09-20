@@ -1,0 +1,12 @@
+  dpm($form['thongtin_coban'], '$f');
+
+  $f = $form['thongtin_coban'];
+
+  $x = array();
+  foreach ($f as $k => $v) {
+    if(is_array($v)) {
+      $x[] = $k;
+    }
+  }
+  $x = implode(',', $x);
+  dpm($x, 'xx');

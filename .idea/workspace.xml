@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9af68dca-3bac-4742-bc53-67befd7e6928" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="7">
+    <drupalPath>C:\xampp\htdocs\ctsv</drupalPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TODO.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TODO.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tuyendung.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="222" column="18" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+              <folding>
+                <element signature="e#175#280#0#PHP" expanded="false" />
+                <element signature="e#594#915#0#PHP" expanded="false" />
+                <element signature="e#652#913#0#PHP" expanded="false" />
+                <element signature="e#763#828#0#PHP" expanded="false" />
+                <element signature="e#763#862#0#PHP" expanded="false" />
+                <element signature="e#886#913#0#PHP" expanded="false" />
+                <element signature="e#917#3270#0#PHP" expanded="false" />
+                <element signature="e#1040#1092#0#PHP" expanded="false" />
+                <element signature="e#1114#1173#0#PHP" expanded="false" />
+                <element signature="e#1207#1312#0#PHP" expanded="false" />
+                <element signature="e#1358#1528#0#PHP" expanded="false" />
+                <element signature="e#1571#1730#0#PHP" expanded="false" />
+                <element signature="e#1778#1938#0#PHP" expanded="false" />
+                <element signature="e#1980#2136#0#PHP" expanded="false" />
+                <element signature="e#2180#2342#0#PHP" expanded="false" />
+                <element signature="e#2384#2541#0#PHP" expanded="false" />
+                <element signature="e#2582#3082#0#PHP" expanded="false" />
+                <element signature="e#2768#3014#1#PHP" expanded="false" />
+                <element signature="e#3125#3191#0#PHP" expanded="false" />
+                <element signature="e#3271#4305#0#PHP" expanded="false" />
+                <element signature="e#3574#3706#0#PHP" expanded="false" />
+                <element signature="e#3725#3829#0#PHP" expanded="false" />
+                <element signature="e#3847#4235#0#PHP" expanded="false" />
+                <element signature="e#3874#4117#0#PHP" expanded="false" />
+                <element signature="e#4162#4235#0#PHP" expanded="false" />
+                <element signature="e#4306#5853#0#PHP" expanded="false" />
+                <element signature="e#4613#5851#0#PHP" expanded="false" />
+                <element signature="e#4705#4878#0#PHP" expanded="false" />
+                <element signature="e#4893#5446#0#PHP" expanded="false" />
+                <element signature="e#5452#5646#0#PHP" expanded="false" />
+                <element signature="e#5561#5646#0#PHP" expanded="false" />
+                <element signature="e#5731#5851#0#PHP" expanded="false" />
+                <element signature="e#5873#5916#0#PHP" expanded="false" />
+                <element signature="e#6046#6183#0#PHP" expanded="false" />
+                <element signature="e#6102#6179#0#PHP" expanded="false" />
+                <element signature="e#6203#6261#0#PHP" expanded="false" />
+                <element signature="e#6361#6430#0#PHP" expanded="false" />
+                <element signature="e#6461#6571#0#PHP" expanded="false" />
+                <element signature="e#6611#6773#0#PHP" expanded="false" />
+                <element signature="e#6812#6974#0#PHP" expanded="false" />
+                <element signature="e#7018#7193#0#PHP" expanded="false" />
+                <element signature="e#7234#7409#0#PHP" expanded="false" />
+                <element signature="e#7449#7611#0#PHP" expanded="false" />
+                <element signature="e#7654#7833#0#PHP" expanded="false" />
+                <element signature="e#7875#8043#0#PHP" expanded="false" />
+                <element signature="e#8087#8261#0#PHP" expanded="false" />
+                <element signature="e#8289#8363#0#PHP" expanded="false" />
+                <element signature="e#8402#8583#0#PHP" expanded="false" />
+                <element signature="e#8625#8845#0#PHP" expanded="false" />
+                <element signature="e#8738#8840#1#PHP" expanded="false" />
+                <element signature="e#8764#8833#1#PHP" expanded="false" />
+                <element signature="e#8903#9122#0#PHP" expanded="false" />
+                <element signature="e#9015#9117#1#PHP" expanded="false" />
+                <element signature="e#9041#9110#1#PHP" expanded="false" />
+                <element signature="e#9162#9382#0#PHP" expanded="false" />
+                <element signature="e#9275#9377#1#PHP" expanded="false" />
+                <element signature="e#9301#9370#1#PHP" expanded="false" />
+                <element signature="e#9436#9524#0#PHP" expanded="false" />
+                <element signature="e#9566#9745#0#PHP" expanded="false" />
+                <element signature="e#9788#9971#0#PHP" expanded="false" />
+                <element signature="e#10011#10185#0#PHP" expanded="false" />
+                <element signature="e#10223#10386#0#PHP" expanded="false" />
+                <element signature="e#10429#10617#0#PHP" expanded="false" />
+                <element signature="e#10665#10852#0#PHP" expanded="false" />
+                <element signature="e#10899#11085#0#PHP" expanded="false" />
+                <element signature="e#11133#11323#0#PHP" expanded="false" />
+                <element signature="e#11368#11541#0#PHP" expanded="false" />
+                <element signature="e#11564#11630#0#PHP" expanded="false" />
+                <element signature="e#11776#14363#0#PHP" expanded="false" />
+                <element signature="e#11910#14361#0#PHP" expanded="false" />
+                <element signature="e#12111#12259#0#PHP" expanded="false" />
+                <element signature="e#12135#12159#0#PHP" expanded="false" />
+                <element signature="e#12166#12188#0#PHP" expanded="false" />
+                <element signature="e#12195#12217#0#PHP" expanded="false" />
+                <element signature="e#12224#12253#0#PHP" expanded="false" />
+                <element signature="e#12283#12937#0#PHP" expanded="false" />
+                <element signature="e#12944#13176#0#PHP" expanded="false" />
+                <element signature="e#13083#13176#0#PHP" expanded="false" />
+                <element signature="e#13182#14157#0#PHP" expanded="false" />
+                <element signature="e#13222#13924#0#PHP" expanded="false" />
+                <element signature="e#13933#14151#0#PHP" expanded="false" />
+                <element signature="e#14033#14151#0#PHP" expanded="false" />
+                <element signature="e#14241#14361#0#PHP" expanded="false" />
+                <element signature="e#14379#14435#0#PHP" expanded="false" />
+                <element signature="e#14436#14720#0#PHP" expanded="false" />
+                <element signature="e#14484#14561#0#PHP" expanded="false" />
+                <element signature="e#14536#14561#0#PHP" expanded="false" />
+                <element signature="e#14581#14648#0#PHP" expanded="false" />
+                <element signature="e#14581#14682#0#PHP" expanded="false" />
+                <element signature="e#14722#14787#0#PHP" expanded="false" />
+                <element signature="e#14788#14957#0#PHP" expanded="false" />
+                <element signature="e#14841#14891#0#PHP" expanded="false" />
+                <element signature="e#14841#14918#0#PHP" expanded="false" />
+                <element signature="e#14959#15026#0#PHP" expanded="false" />
+                <element signature="e#15027#15218#0#PHP" expanded="false" />
+                <element signature="e#15085#15146#0#PHP" expanded="false" />
+                <element signature="e#15085#15179#0#PHP" expanded="false" />
+                <element signature="e#15220#15288#0#PHP" expanded="false" />
+                <element signature="e#15289#15463#0#PHP" expanded="false" />
+                <element signature="e#15338#15393#0#PHP" expanded="false" />
+                <element signature="e#15338#15424#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.inc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#109#118#0#PHP" expanded="false" />
+                <element signature="e#487#643#0#PHP" expanded="false" />
+                <element signature="e#674#924#0#PHP" expanded="false" />
+                <element signature="e#962#1243#0#PHP" expanded="false" />
+                <element signature="e#1281#1562#0#PHP" expanded="false" />
+                <element signature="e#1601#1878#0#PHP" expanded="false" />
+                <element signature="e#1912#1978#0#PHP" expanded="false" />
+                <element signature="n#timkiem_pages_submit#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sinhvien.inc" pinned="false" current-in-tab="false">
+        <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/sinhvien.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="501" column="49" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+              <folding>
+                <marker date="1505111783421" expanded="false" signature="506:512" ph=" " />
+                <marker date="1505111783421" expanded="false" signature="512:518" ph=" " />
+                <marker date="1505111783421" expanded="false" signature="518:524" ph=" " />
+                <marker date="1505111783421" expanded="false" signature="706:712" ph=" " />
+                <marker date="1505111783421" expanded="false" signature="712:718" ph=" " />
+                <marker date="1505111783421" expanded="false" signature="718:724" ph=" " />
+                <marker date="1505111783421" expanded="true" signature="1429:1648" ph="select giayx... gxn_giayxacnhan" />
+                <marker date="1505111783421" expanded="true" signature="2703:2937" ph="select giayx... gxn_giayxacnhan" />
+                <marker date="1505111783421" expanded="true" signature="7648:7846" ph="select giayx... gxn_giayxacnhan" />
+                <marker date="1505111783421" expanded="true" signature="10901:11844" ph="..." />
+                <marker date="1505111783421" expanded="true" signature="12141:12824" ph="..." />
+                <marker date="1505111783421" expanded="true" signature="13924:14494" ph="..." />
+                <marker date="1505111783421" expanded="true" signature="14796:16072" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="306" column="19" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vuejs.module" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+              <folding>
+                <element signature="e#7#64#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cv_tuyendung.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/text">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="214" lean-forward="true" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="214" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/link">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tyin</find>
+      <find>$cty</find>
+      <find>$id_cty</find>
+      <find>',</find>
+      <find>,</find>
+      <find>isset($value['id_cv']) ? $value['id_cv'] : NULL;</find>
+      <find>thongtin_coban</find>
+      <find>$info</find>
+      <find>thongtin_bantin</find>
+      <find>load_tintuyendung</find>
+      <find>'</find>
+      <find>load_id_cty</find>
+      <find>sodienthoai</find>
+      <find>$file</find>
+      <find>file</find>
+      <find>$fid</find>
+      <find>fid</find>
+      <find>logo_file_size</find>
+      <find>khác</find>
+      <find>defaultDiacriticsRemovalMap</find>
+      <find>u007E</find>
+      <find>'#id</find>
+      <find>$form['#attached']['js']</find>
+      <find>andTags</find>
+      <find>tagGroups</find>
+      <find>dobFrom</find>
+      <find>App</find>
+      <find>Vu</find>
+      <find>Vue</find>
+      <find>page-search</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>array(</replace>
+      <replace>);</replace>
+      <replace>'#required' =&gt; TRUE,'#default_value' =&gt; 'x'</replace>
+      <replace>isset($value['id_cty']) ? $value['id_cty'] : NULL,</replace>
+      <replace>tt_congty</replace>
+      <replace>thongtin_congty</replace>
+      <replace>$info</replace>
+      <replace>$id_cv</replace>
+      <replace>','</replace>
+      <replace>' =&gt; 1,</replace>
+      <replace>varchar(50) DEFAULT NULL,</replace>
+      <replace>isset($value['id_cv']) ? $value['id_cv'] : NULL;</replace>
+      <replace>thongtin_bantin</replace>
+      <replace>$baotin</replace>
+      <replace>thongtin_baotin</replace>
+      <replace>`</replace>
+      <replace>$file</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/inc/quanly/tuyendung.inc" />
+        <option value="$PROJECT_DIR$/cv_tuyendung.info" />
+        <option value="$USER_HOME$/Downloads/tmp.sql" />
+        <option value="$PROJECT_DIR$/sql/tuyendung.sql" />
+        <option value="$PROJECT_DIR$/cv_tuyendung.module" />
+        <option value="$PROJECT_DIR$/inc/tuyendung.inc" />
+        <option value="$PROJECT_DIR$/database/text.txt" />
+        <option value="$PROJECT_DIR$/database/templa.txt" />
+        <option value="$PROJECT_DIR$/database/tuyendung.sql" />
+        <option value="D:/git/leak-uit/trungtam-kiemdinh-giaoduc/inc/gioithieu.inc" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc" />
+        <option value="$PROJECT_DIR$/TODO.txt" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/timkiem/link" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/timkiem/filter.js" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/timkiem/text" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/js/vue.js" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="C:/xampp/htdocs/ctsv/includes" />
+      <path value="C:/xampp/htdocs/ctsv/modules" />
+      <path value="C:/xampp/htdocs/ctsv/sites/all/modules" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-50" />
+    <option name="y" value="208" />
+    <option name="width" value="1320" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timkiem" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PhpstormProjects\CV\module\cv_tuyendung\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9af68dca-3bac-4742-bc53-67befd7e6928" name="Default" comment="" />
+      <created>1505448868202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505448868202</updated>
+      <workItem from="1505448869625" duration="30000" />
+      <workItem from="1505448932404" duration="1138000" />
+      <workItem from="1505634027527" duration="146000" />
+      <workItem from="1505634390010" duration="5768000" />
+      <workItem from="1505667700540" duration="18000" />
+      <workItem from="1505667739833" duration="772000" />
+      <workItem from="1505668950549" duration="2526000" />
+      <workItem from="1505705058428" duration="6087000" />
+      <workItem from="1505718057763" duration="7706000" />
+      <workItem from="1505810841399" duration="4280000" />
+      <workItem from="1505892770164" duration="4918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33389000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22334754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/tuyendung.inc</url>
+          <line>225</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/leak-uit/trungtam-kiemdinh-giaoduc/inc/gioithieu.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/tuyendung.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/templa.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+          <folding>
+            <element signature="e#175#280#0#PHP" expanded="false" />
+            <element signature="e#594#915#0#PHP" expanded="false" />
+            <element signature="e#652#913#0#PHP" expanded="false" />
+            <element signature="e#763#828#0#PHP" expanded="false" />
+            <element signature="e#763#862#0#PHP" expanded="false" />
+            <element signature="e#886#913#0#PHP" expanded="false" />
+            <element signature="e#917#3270#0#PHP" expanded="false" />
+            <element signature="e#1040#1092#0#PHP" expanded="false" />
+            <element signature="e#1114#1173#0#PHP" expanded="false" />
+            <element signature="e#1207#1312#0#PHP" expanded="false" />
+            <element signature="e#1358#1528#0#PHP" expanded="false" />
+            <element signature="e#1571#1730#0#PHP" expanded="false" />
+            <element signature="e#1778#1938#0#PHP" expanded="false" />
+            <element signature="e#1980#2136#0#PHP" expanded="false" />
+            <element signature="e#2180#2342#0#PHP" expanded="false" />
+            <element signature="e#2384#2541#0#PHP" expanded="false" />
+            <element signature="e#2582#3082#0#PHP" expanded="false" />
+            <element signature="e#2768#3014#1#PHP" expanded="false" />
+            <element signature="e#3125#3191#0#PHP" expanded="false" />
+            <element signature="e#3271#4305#0#PHP" expanded="false" />
+            <element signature="e#3574#3706#0#PHP" expanded="false" />
+            <element signature="e#3725#3829#0#PHP" expanded="false" />
+            <element signature="e#3847#4235#0#PHP" expanded="false" />
+            <element signature="e#3874#4117#0#PHP" expanded="false" />
+            <element signature="e#4162#4235#0#PHP" expanded="false" />
+            <element signature="e#4306#5853#0#PHP" expanded="false" />
+            <element signature="e#4613#5851#0#PHP" expanded="false" />
+            <element signature="e#4705#4878#0#PHP" expanded="false" />
+            <element signature="e#4893#5446#0#PHP" expanded="false" />
+            <element signature="e#5452#5646#0#PHP" expanded="false" />
+            <element signature="e#5561#5646#0#PHP" expanded="false" />
+            <element signature="e#5731#5851#0#PHP" expanded="false" />
+            <element signature="e#5873#5916#0#PHP" expanded="false" />
+            <element signature="e#6046#6183#0#PHP" expanded="false" />
+            <element signature="e#6102#6179#0#PHP" expanded="false" />
+            <element signature="e#6203#6261#0#PHP" expanded="false" />
+            <element signature="e#6361#6430#0#PHP" expanded="false" />
+            <element signature="e#6461#6571#0#PHP" expanded="false" />
+            <element signature="e#6611#6773#0#PHP" expanded="false" />
+            <element signature="e#6812#6974#0#PHP" expanded="false" />
+            <element signature="e#7018#7193#0#PHP" expanded="false" />
+            <element signature="e#7234#7409#0#PHP" expanded="false" />
+            <element signature="e#7449#7611#0#PHP" expanded="false" />
+            <element signature="e#7654#7833#0#PHP" expanded="false" />
+            <element signature="e#7875#8043#0#PHP" expanded="false" />
+            <element signature="e#8087#8261#0#PHP" expanded="false" />
+            <element signature="e#8289#8363#0#PHP" expanded="false" />
+            <element signature="e#8402#8583#0#PHP" expanded="false" />
+            <element signature="e#8625#8845#0#PHP" expanded="false" />
+            <element signature="e#8738#8840#1#PHP" expanded="false" />
+            <element signature="e#8764#8833#1#PHP" expanded="false" />
+            <element signature="e#8903#9122#0#PHP" expanded="false" />
+            <element signature="e#9015#9117#1#PHP" expanded="false" />
+            <element signature="e#9041#9110#1#PHP" expanded="false" />
+            <element signature="e#9162#9382#0#PHP" expanded="false" />
+            <element signature="e#9275#9377#1#PHP" expanded="false" />
+            <element signature="e#9301#9370#1#PHP" expanded="false" />
+            <element signature="e#9436#9524#0#PHP" expanded="false" />
+            <element signature="e#9566#9745#0#PHP" expanded="false" />
+            <element signature="e#9788#9971#0#PHP" expanded="false" />
+            <element signature="e#10011#10185#0#PHP" expanded="false" />
+            <element signature="e#10223#10386#0#PHP" expanded="false" />
+            <element signature="e#10429#10617#0#PHP" expanded="false" />
+            <element signature="e#10665#10852#0#PHP" expanded="false" />
+            <element signature="e#10899#11085#0#PHP" expanded="false" />
+            <element signature="e#11133#11323#0#PHP" expanded="false" />
+            <element signature="e#11368#11541#0#PHP" expanded="false" />
+            <element signature="e#11564#11630#0#PHP" expanded="false" />
+            <element signature="e#11776#14363#0#PHP" expanded="false" />
+            <element signature="e#11910#14361#0#PHP" expanded="false" />
+            <element signature="e#12111#12259#0#PHP" expanded="false" />
+            <element signature="e#12135#12159#0#PHP" expanded="false" />
+            <element signature="e#12166#12188#0#PHP" expanded="false" />
+            <element signature="e#12195#12217#0#PHP" expanded="false" />
+            <element signature="e#12224#12253#0#PHP" expanded="false" />
+            <element signature="e#12283#12937#0#PHP" expanded="false" />
+            <element signature="e#12944#13176#0#PHP" expanded="false" />
+            <element signature="e#13083#13176#0#PHP" expanded="false" />
+            <element signature="e#13182#14157#0#PHP" expanded="false" />
+            <element signature="e#13222#13924#0#PHP" expanded="false" />
+            <element signature="e#13933#14151#0#PHP" expanded="false" />
+            <element signature="e#14033#14151#0#PHP" expanded="false" />
+            <element signature="e#14241#14361#0#PHP" expanded="false" />
+            <element signature="e#14379#14435#0#PHP" expanded="false" />
+            <element signature="e#14436#14720#0#PHP" expanded="false" />
+            <element signature="e#14484#14561#0#PHP" expanded="false" />
+            <element signature="e#14536#14561#0#PHP" expanded="false" />
+            <element signature="e#14581#14648#0#PHP" expanded="false" />
+            <element signature="e#14581#14682#0#PHP" expanded="false" />
+            <element signature="e#14722#14787#0#PHP" expanded="false" />
+            <element signature="e#14788#14957#0#PHP" expanded="false" />
+            <element signature="e#14841#14891#0#PHP" expanded="false" />
+            <element signature="e#14841#14918#0#PHP" expanded="false" />
+            <element signature="e#14959#15026#0#PHP" expanded="false" />
+            <element signature="e#15027#15218#0#PHP" expanded="false" />
+            <element signature="e#15085#15146#0#PHP" expanded="false" />
+            <element signature="e#15085#15179#0#PHP" expanded="false" />
+            <element signature="e#15220#15288#0#PHP" expanded="false" />
+            <element signature="e#15289#15463#0#PHP" expanded="false" />
+            <element signature="e#15338#15393#0#PHP" expanded="false" />
+            <element signature="e#15338#15424#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
+    <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
+    <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
+    <entry file="file://$PROJECT_DIR$/inc/quanly/tuyendung.inc" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
+    <entry file="file://$PROJECT_DIR$/inc/quanly/tuyendung.inc" />
+    <entry file="file://$PROJECT_DIR$/tuyendung.info" />
+    <entry file="file://$PROJECT_DIR$/tuyendung.module" />
+    <entry file="file://$PROJECT_DIR$/tuyendung.info" />
+    <entry file="file://$PROJECT_DIR$/tuyendung.module" />
+    <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/gxn.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="180" column="1" lean-forward="true" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/quanly/tuyendung.inc" />
+    <entry file="file://C:/xampp/htdocs/ctsv/includes/common.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1221" column="2" lean-forward="false" selection-start-line="1221" selection-start-column="2" selection-end-line="1221" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
+    <entry file="file://D:/git/leak-uit/trungtam-kiemdinh-giaoduc/sql/csdg_reversion.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/tmp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="1839" column="0" lean-forward="true" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/pack0/data/cv.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9483" column="22" lean-forward="false" selection-start-line="9483" selection-start-column="22" selection-end-line="9483" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/tuyendung.sql" />
+    <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
+    <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
+    <entry file="file://$PROJECT_DIR$/database/templa.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="234" column="49" lean-forward="true" selection-start-line="234" selection-start-column="49" selection-end-line="234" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/leak-uit/trungtam-kiemdinh-giaoduc/inc/gioithieu.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/tuyendung.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/link">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="214" lean-forward="true" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="214" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/sinhvien.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="501" column="49" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+          <folding>
+            <marker date="1505111783421" expanded="false" signature="506:512" ph=" " />
+            <marker date="1505111783421" expanded="false" signature="512:518" ph=" " />
+            <marker date="1505111783421" expanded="false" signature="518:524" ph=" " />
+            <marker date="1505111783421" expanded="false" signature="706:712" ph=" " />
+            <marker date="1505111783421" expanded="false" signature="712:718" ph=" " />
+            <marker date="1505111783421" expanded="false" signature="718:724" ph=" " />
+            <marker date="1505111783421" expanded="true" signature="1429:1648" ph="select giayx... gxn_giayxacnhan" />
+            <marker date="1505111783421" expanded="true" signature="2703:2937" ph="select giayx... gxn_giayxacnhan" />
+            <marker date="1505111783421" expanded="true" signature="7648:7846" ph="select giayx... gxn_giayxacnhan" />
+            <marker date="1505111783421" expanded="true" signature="10901:11844" ph="..." />
+            <marker date="1505111783421" expanded="true" signature="12141:12824" ph="..." />
+            <marker date="1505111783421" expanded="true" signature="13924:14494" ph="..." />
+            <marker date="1505111783421" expanded="true" signature="14796:16072" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="e#7#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="306" column="19" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="222" column="18" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding>
+            <element signature="e#175#280#0#PHP" expanded="false" />
+            <element signature="e#594#915#0#PHP" expanded="false" />
+            <element signature="e#652#913#0#PHP" expanded="false" />
+            <element signature="e#763#828#0#PHP" expanded="false" />
+            <element signature="e#763#862#0#PHP" expanded="false" />
+            <element signature="e#886#913#0#PHP" expanded="false" />
+            <element signature="e#917#3270#0#PHP" expanded="false" />
+            <element signature="e#1040#1092#0#PHP" expanded="false" />
+            <element signature="e#1114#1173#0#PHP" expanded="false" />
+            <element signature="e#1207#1312#0#PHP" expanded="false" />
+            <element signature="e#1358#1528#0#PHP" expanded="false" />
+            <element signature="e#1571#1730#0#PHP" expanded="false" />
+            <element signature="e#1778#1938#0#PHP" expanded="false" />
+            <element signature="e#1980#2136#0#PHP" expanded="false" />
+            <element signature="e#2180#2342#0#PHP" expanded="false" />
+            <element signature="e#2384#2541#0#PHP" expanded="false" />
+            <element signature="e#2582#3082#0#PHP" expanded="false" />
+            <element signature="e#2768#3014#1#PHP" expanded="false" />
+            <element signature="e#3125#3191#0#PHP" expanded="false" />
+            <element signature="e#3271#4305#0#PHP" expanded="false" />
+            <element signature="e#3574#3706#0#PHP" expanded="false" />
+            <element signature="e#3725#3829#0#PHP" expanded="false" />
+            <element signature="e#3847#4235#0#PHP" expanded="false" />
+            <element signature="e#3874#4117#0#PHP" expanded="false" />
+            <element signature="e#4162#4235#0#PHP" expanded="false" />
+            <element signature="e#4306#5853#0#PHP" expanded="false" />
+            <element signature="e#4613#5851#0#PHP" expanded="false" />
+            <element signature="e#4705#4878#0#PHP" expanded="false" />
+            <element signature="e#4893#5446#0#PHP" expanded="false" />
+            <element signature="e#5452#5646#0#PHP" expanded="false" />
+            <element signature="e#5561#5646#0#PHP" expanded="false" />
+            <element signature="e#5731#5851#0#PHP" expanded="false" />
+            <element signature="e#5873#5916#0#PHP" expanded="false" />
+            <element signature="e#6046#6183#0#PHP" expanded="false" />
+            <element signature="e#6102#6179#0#PHP" expanded="false" />
+            <element signature="e#6203#6261#0#PHP" expanded="false" />
+            <element signature="e#6361#6430#0#PHP" expanded="false" />
+            <element signature="e#6461#6571#0#PHP" expanded="false" />
+            <element signature="e#6611#6773#0#PHP" expanded="false" />
+            <element signature="e#6812#6974#0#PHP" expanded="false" />
+            <element signature="e#7018#7193#0#PHP" expanded="false" />
+            <element signature="e#7234#7409#0#PHP" expanded="false" />
+            <element signature="e#7449#7611#0#PHP" expanded="false" />
+            <element signature="e#7654#7833#0#PHP" expanded="false" />
+            <element signature="e#7875#8043#0#PHP" expanded="false" />
+            <element signature="e#8087#8261#0#PHP" expanded="false" />
+            <element signature="e#8289#8363#0#PHP" expanded="false" />
+            <element signature="e#8402#8583#0#PHP" expanded="false" />
+            <element signature="e#8625#8845#0#PHP" expanded="false" />
+            <element signature="e#8738#8840#1#PHP" expanded="false" />
+            <element signature="e#8764#8833#1#PHP" expanded="false" />
+            <element signature="e#8903#9122#0#PHP" expanded="false" />
+            <element signature="e#9015#9117#1#PHP" expanded="false" />
+            <element signature="e#9041#9110#1#PHP" expanded="false" />
+            <element signature="e#9162#9382#0#PHP" expanded="false" />
+            <element signature="e#9275#9377#1#PHP" expanded="false" />
+            <element signature="e#9301#9370#1#PHP" expanded="false" />
+            <element signature="e#9436#9524#0#PHP" expanded="false" />
+            <element signature="e#9566#9745#0#PHP" expanded="false" />
+            <element signature="e#9788#9971#0#PHP" expanded="false" />
+            <element signature="e#10011#10185#0#PHP" expanded="false" />
+            <element signature="e#10223#10386#0#PHP" expanded="false" />
+            <element signature="e#10429#10617#0#PHP" expanded="false" />
+            <element signature="e#10665#10852#0#PHP" expanded="false" />
+            <element signature="e#10899#11085#0#PHP" expanded="false" />
+            <element signature="e#11133#11323#0#PHP" expanded="false" />
+            <element signature="e#11368#11541#0#PHP" expanded="false" />
+            <element signature="e#11564#11630#0#PHP" expanded="false" />
+            <element signature="e#11776#14363#0#PHP" expanded="false" />
+            <element signature="e#11910#14361#0#PHP" expanded="false" />
+            <element signature="e#12111#12259#0#PHP" expanded="false" />
+            <element signature="e#12135#12159#0#PHP" expanded="false" />
+            <element signature="e#12166#12188#0#PHP" expanded="false" />
+            <element signature="e#12195#12217#0#PHP" expanded="false" />
+            <element signature="e#12224#12253#0#PHP" expanded="false" />
+            <element signature="e#12283#12937#0#PHP" expanded="false" />
+            <element signature="e#12944#13176#0#PHP" expanded="false" />
+            <element signature="e#13083#13176#0#PHP" expanded="false" />
+            <element signature="e#13182#14157#0#PHP" expanded="false" />
+            <element signature="e#13222#13924#0#PHP" expanded="false" />
+            <element signature="e#13933#14151#0#PHP" expanded="false" />
+            <element signature="e#14033#14151#0#PHP" expanded="false" />
+            <element signature="e#14241#14361#0#PHP" expanded="false" />
+            <element signature="e#14379#14435#0#PHP" expanded="false" />
+            <element signature="e#14436#14720#0#PHP" expanded="false" />
+            <element signature="e#14484#14561#0#PHP" expanded="false" />
+            <element signature="e#14536#14561#0#PHP" expanded="false" />
+            <element signature="e#14581#14648#0#PHP" expanded="false" />
+            <element signature="e#14581#14682#0#PHP" expanded="false" />
+            <element signature="e#14722#14787#0#PHP" expanded="false" />
+            <element signature="e#14788#14957#0#PHP" expanded="false" />
+            <element signature="e#14841#14891#0#PHP" expanded="false" />
+            <element signature="e#14841#14918#0#PHP" expanded="false" />
+            <element signature="e#14959#15026#0#PHP" expanded="false" />
+            <element signature="e#15027#15218#0#PHP" expanded="false" />
+            <element signature="e#15085#15146#0#PHP" expanded="false" />
+            <element signature="e#15085#15179#0#PHP" expanded="false" />
+            <element signature="e#15220#15288#0#PHP" expanded="false" />
+            <element signature="e#15289#15463#0#PHP" expanded="false" />
+            <element signature="e#15338#15393#0#PHP" expanded="false" />
+            <element signature="e#15338#15424#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/filter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#486#561#0#PHP" expanded="false" />
+            <element signature="n#gxn_filters#0;n#!!top" expanded="false" />
+            <element signature="e#706#822#0#PHP" expanded="false" />
+            <element signature="e#827#1716#0#PHP" expanded="false" />
+            <element signature="e#908#1710#0#PHP" expanded="false" />
+            <element signature="e#1013#1318#0#PHP" expanded="false" />
+            <element signature="e#1338#1710#0#PHP" expanded="false" />
+            <element signature="e#1413#1699#0#PHP" expanded="false" />
+            <element signature="e#1742#2019#0#PHP" expanded="false" />
+            <element signature="n#gxn_set_filters#0;n#!!top" expanded="false" />
+            <element signature="e#2177#2790#0#PHP" expanded="false" />
+            <element signature="e#2229#2784#0#PHP" expanded="false" />
+            <element signature="e#2298#2695#0#PHP" expanded="false" />
+            <element signature="e#2441#2578#0#PHP" expanded="false" />
+            <element signature="e#2605#2695#0#PHP" expanded="false" />
+            <element signature="e#2714#2784#0#PHP" expanded="false" />
+            <element signature="n#gxn_filter_form#0;n#!!top" expanded="false" />
+            <element signature="e#2950#3118#0#PHP" expanded="false" />
+            <element signature="e#2998#3112#0#PHP" expanded="false" />
+            <element signature="n#gxn_search_value#0;n#!!top" expanded="false" />
+            <element signature="e#3206#3671#0#PHP" expanded="false" />
+            <element signature="e#3319#3665#0#PHP" expanded="false" />
+            <element signature="e#3345#3382#0#PHP" expanded="false" />
+            <element signature="e#3478#3562#0#PHP" expanded="false" />
+            <element signature="e#3575#3655#0#PHP" expanded="false" />
+            <element signature="n#gxn_custom_fields_search#0;n#!!top" expanded="false" />
+            <element signature="e#3754#4863#0#PHP" expanded="false" />
+            <element signature="e#3778#4511#0#PHP" expanded="false" />
+            <element signature="e#3831#4492#0#PHP" expanded="false" />
+            <element signature="e#3895#4038#0#PHP" expanded="false" />
+            <element signature="e#4055#4260#0#PHP" expanded="false" />
+            <element signature="e#4277#4421#0#PHP" expanded="false" />
+            <element signature="e#4438#4478#0#PHP" expanded="false" />
+            <element signature="e#4520#4831#0#PHP" expanded="false" />
+            <element signature="e#4578#4812#0#PHP" expanded="false" />
+            <element signature="e#4612#4798#0#PHP" expanded="false" />
+            <element signature="n#gxn_fields_header_data#0;n#!!top" expanded="false" />
+            <element signature="e#5076#5671#0#PHP" expanded="false" />
+            <element signature="e#5100#5455#0#PHP" expanded="false" />
+            <element signature="e#5464#5665#0#PHP" expanded="false" />
+            <element signature="n#gxn_chuaxuly_sinhvien_render_items#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6521#0#PHP" expanded="false" />
+            <element signature="e#6555#6623#0#PHP" expanded="false" />
+            <element signature="e#6555#6653#0#PHP" expanded="false" />
+            <element signature="e#6973#7065#0#PHP" expanded="false" />
+            <element signature="e#6973#7110#0#PHP" expanded="false" />
+            <element signature="e#6973#7150#0#PHP" expanded="false" />
+            <element signature="e#7190#7939#0#PHP" expanded="false" />
+            <element signature="e#7270#7932#0#PHP" expanded="false" />
+            <element signature="e#7516#7766#1#PHP" expanded="false" />
+            <element signature="e#7532#7765#1#PHP" expanded="false" />
+            <element signature="n#gxn_thongke_render_list#0;n#!!top" expanded="false" />
+            <element signature="e#8254#8641#0#PHP" expanded="false" />
+            <element signature="e#8656#8724#0#PHP" expanded="false" />
+            <element signature="e#8656#8754#0#PHP" expanded="false" />
+            <element signature="e#9035#9080#0#PHP" expanded="false" />
+            <element signature="e#9035#9113#0#PHP" expanded="false" />
+            <element signature="e#9035#9148#0#PHP" expanded="false" />
+            <element signature="e#9351#9712#0#PHP" expanded="false" />
+            <element signature="e#9396#9678#0#PHP" expanded="false" />
+            <element signature="e#9985#10059#0#PHP" expanded="false" />
+            <element signature="n#export_thongke_gxn#0;n#!!top" expanded="false" />
+            <element signature="e#10846#11062#0#PHP" expanded="false" />
+            <element signature="e#11760#11868#0#PHP" expanded="false" />
+            <element signature="e#12036#12144#0#PHP" expanded="false" />
+            <element signature="e#12360#12470#0#PHP" expanded="false" />
+            <element signature="e#12755#12863#0#PHP" expanded="false" />
+            <element signature="e#13000#13429#0#PHP" expanded="false" />
+            <element signature="e#13530#13638#0#PHP" expanded="false" />
+            <element signature="e#14307#15049#0#PHP" expanded="false" />
+            <element signature="e#15071#15189#0#PHP" expanded="false" />
+            <element signature="e#15720#16361#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="10182" column="5" lean-forward="false" selection-start-line="10182" selection-start-column="5" selection-end-line="10182" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gxn/gxn.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#118#0#PHP" expanded="false" />
+            <element signature="e#487#643#0#PHP" expanded="false" />
+            <element signature="e#674#924#0#PHP" expanded="false" />
+            <element signature="e#962#1243#0#PHP" expanded="false" />
+            <element signature="e#1281#1562#0#PHP" expanded="false" />
+            <element signature="e#1601#1878#0#PHP" expanded="false" />
+            <element signature="e#1912#1978#0#PHP" expanded="false" />
+            <element signature="n#timkiem_pages_submit#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

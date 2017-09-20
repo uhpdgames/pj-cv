@@ -1,0 +1,3 @@
+dangtin
+
+tieude,nganh,noilamviec,soluong,capbac,tglamviec,gioitinh,kinhnghiem,luong,het_han,nguoitao,email,sdt,mota_cty,mota_congviec,mota_ungvien,mota_quyenloi,kynang_can
