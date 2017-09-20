@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af68dca-3bac-4742-bc53-67befd7e6928" name="Default" comment="" />
+    <list default="true" id="9af68dca-3bac-4742-bc53-67befd7e6928" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NOTE/request" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/cv_tuyendung.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/cv_tuyendung/js/vue.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc" afterPath="$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cv_tuyendung/js/filter.js" afterPath="$PROJECT_DIR$/module/cv_tuyendung/js/filter.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,218 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TODO.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <file leaf-file-name="request" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NOTE/request">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuyendung.inc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="222" column="18" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-              <folding>
-                <element signature="e#175#280#0#PHP" expanded="false" />
-                <element signature="e#594#915#0#PHP" expanded="false" />
-                <element signature="e#652#913#0#PHP" expanded="false" />
-                <element signature="e#763#828#0#PHP" expanded="false" />
-                <element signature="e#763#862#0#PHP" expanded="false" />
-                <element signature="e#886#913#0#PHP" expanded="false" />
-                <element signature="e#917#3270#0#PHP" expanded="false" />
-                <element signature="e#1040#1092#0#PHP" expanded="false" />
-                <element signature="e#1114#1173#0#PHP" expanded="false" />
-                <element signature="e#1207#1312#0#PHP" expanded="false" />
-                <element signature="e#1358#1528#0#PHP" expanded="false" />
-                <element signature="e#1571#1730#0#PHP" expanded="false" />
-                <element signature="e#1778#1938#0#PHP" expanded="false" />
-                <element signature="e#1980#2136#0#PHP" expanded="false" />
-                <element signature="e#2180#2342#0#PHP" expanded="false" />
-                <element signature="e#2384#2541#0#PHP" expanded="false" />
-                <element signature="e#2582#3082#0#PHP" expanded="false" />
-                <element signature="e#2768#3014#1#PHP" expanded="false" />
-                <element signature="e#3125#3191#0#PHP" expanded="false" />
-                <element signature="e#3271#4305#0#PHP" expanded="false" />
-                <element signature="e#3574#3706#0#PHP" expanded="false" />
-                <element signature="e#3725#3829#0#PHP" expanded="false" />
-                <element signature="e#3847#4235#0#PHP" expanded="false" />
-                <element signature="e#3874#4117#0#PHP" expanded="false" />
-                <element signature="e#4162#4235#0#PHP" expanded="false" />
-                <element signature="e#4306#5853#0#PHP" expanded="false" />
-                <element signature="e#4613#5851#0#PHP" expanded="false" />
-                <element signature="e#4705#4878#0#PHP" expanded="false" />
-                <element signature="e#4893#5446#0#PHP" expanded="false" />
-                <element signature="e#5452#5646#0#PHP" expanded="false" />
-                <element signature="e#5561#5646#0#PHP" expanded="false" />
-                <element signature="e#5731#5851#0#PHP" expanded="false" />
-                <element signature="e#5873#5916#0#PHP" expanded="false" />
-                <element signature="e#6046#6183#0#PHP" expanded="false" />
-                <element signature="e#6102#6179#0#PHP" expanded="false" />
-                <element signature="e#6203#6261#0#PHP" expanded="false" />
-                <element signature="e#6361#6430#0#PHP" expanded="false" />
-                <element signature="e#6461#6571#0#PHP" expanded="false" />
-                <element signature="e#6611#6773#0#PHP" expanded="false" />
-                <element signature="e#6812#6974#0#PHP" expanded="false" />
-                <element signature="e#7018#7193#0#PHP" expanded="false" />
-                <element signature="e#7234#7409#0#PHP" expanded="false" />
-                <element signature="e#7449#7611#0#PHP" expanded="false" />
-                <element signature="e#7654#7833#0#PHP" expanded="false" />
-                <element signature="e#7875#8043#0#PHP" expanded="false" />
-                <element signature="e#8087#8261#0#PHP" expanded="false" />
-                <element signature="e#8289#8363#0#PHP" expanded="false" />
-                <element signature="e#8402#8583#0#PHP" expanded="false" />
-                <element signature="e#8625#8845#0#PHP" expanded="false" />
-                <element signature="e#8738#8840#1#PHP" expanded="false" />
-                <element signature="e#8764#8833#1#PHP" expanded="false" />
-                <element signature="e#8903#9122#0#PHP" expanded="false" />
-                <element signature="e#9015#9117#1#PHP" expanded="false" />
-                <element signature="e#9041#9110#1#PHP" expanded="false" />
-                <element signature="e#9162#9382#0#PHP" expanded="false" />
-                <element signature="e#9275#9377#1#PHP" expanded="false" />
-                <element signature="e#9301#9370#1#PHP" expanded="false" />
-                <element signature="e#9436#9524#0#PHP" expanded="false" />
-                <element signature="e#9566#9745#0#PHP" expanded="false" />
-                <element signature="e#9788#9971#0#PHP" expanded="false" />
-                <element signature="e#10011#10185#0#PHP" expanded="false" />
-                <element signature="e#10223#10386#0#PHP" expanded="false" />
-                <element signature="e#10429#10617#0#PHP" expanded="false" />
-                <element signature="e#10665#10852#0#PHP" expanded="false" />
-                <element signature="e#10899#11085#0#PHP" expanded="false" />
-                <element signature="e#11133#11323#0#PHP" expanded="false" />
-                <element signature="e#11368#11541#0#PHP" expanded="false" />
-                <element signature="e#11564#11630#0#PHP" expanded="false" />
-                <element signature="e#11776#14363#0#PHP" expanded="false" />
-                <element signature="e#11910#14361#0#PHP" expanded="false" />
-                <element signature="e#12111#12259#0#PHP" expanded="false" />
-                <element signature="e#12135#12159#0#PHP" expanded="false" />
-                <element signature="e#12166#12188#0#PHP" expanded="false" />
-                <element signature="e#12195#12217#0#PHP" expanded="false" />
-                <element signature="e#12224#12253#0#PHP" expanded="false" />
-                <element signature="e#12283#12937#0#PHP" expanded="false" />
-                <element signature="e#12944#13176#0#PHP" expanded="false" />
-                <element signature="e#13083#13176#0#PHP" expanded="false" />
-                <element signature="e#13182#14157#0#PHP" expanded="false" />
-                <element signature="e#13222#13924#0#PHP" expanded="false" />
-                <element signature="e#13933#14151#0#PHP" expanded="false" />
-                <element signature="e#14033#14151#0#PHP" expanded="false" />
-                <element signature="e#14241#14361#0#PHP" expanded="false" />
-                <element signature="e#14379#14435#0#PHP" expanded="false" />
-                <element signature="e#14436#14720#0#PHP" expanded="false" />
-                <element signature="e#14484#14561#0#PHP" expanded="false" />
-                <element signature="e#14536#14561#0#PHP" expanded="false" />
-                <element signature="e#14581#14648#0#PHP" expanded="false" />
-                <element signature="e#14581#14682#0#PHP" expanded="false" />
-                <element signature="e#14722#14787#0#PHP" expanded="false" />
-                <element signature="e#14788#14957#0#PHP" expanded="false" />
-                <element signature="e#14841#14891#0#PHP" expanded="false" />
-                <element signature="e#14841#14918#0#PHP" expanded="false" />
-                <element signature="e#14959#15026#0#PHP" expanded="false" />
-                <element signature="e#15027#15218#0#PHP" expanded="false" />
-                <element signature="e#15085#15146#0#PHP" expanded="false" />
-                <element signature="e#15085#15179#0#PHP" expanded="false" />
-                <element signature="e#15220#15288#0#PHP" expanded="false" />
-                <element signature="e#15289#15463#0#PHP" expanded="false" />
-                <element signature="e#15338#15393#0#PHP" expanded="false" />
-                <element signature="e#15338#15424#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.inc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#109#118#0#PHP" expanded="false" />
-                <element signature="e#487#643#0#PHP" expanded="false" />
-                <element signature="e#674#924#0#PHP" expanded="false" />
-                <element signature="e#962#1243#0#PHP" expanded="false" />
-                <element signature="e#1281#1562#0#PHP" expanded="false" />
-                <element signature="e#1601#1878#0#PHP" expanded="false" />
-                <element signature="e#1912#1978#0#PHP" expanded="false" />
-                <element signature="n#timkiem_pages_submit#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sinhvien.inc" pinned="false" current-in-tab="false">
-        <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/sinhvien.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="501" column="49" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
-              <folding>
-                <marker date="1505111783421" expanded="false" signature="506:512" ph=" " />
-                <marker date="1505111783421" expanded="false" signature="512:518" ph=" " />
-                <marker date="1505111783421" expanded="false" signature="518:524" ph=" " />
-                <marker date="1505111783421" expanded="false" signature="706:712" ph=" " />
-                <marker date="1505111783421" expanded="false" signature="712:718" ph=" " />
-                <marker date="1505111783421" expanded="false" signature="718:724" ph=" " />
-                <marker date="1505111783421" expanded="true" signature="1429:1648" ph="select giayx... gxn_giayxacnhan" />
-                <marker date="1505111783421" expanded="true" signature="2703:2937" ph="select giayx... gxn_giayxacnhan" />
-                <marker date="1505111783421" expanded="true" signature="7648:7846" ph="select giayx... gxn_giayxacnhan" />
-                <marker date="1505111783421" expanded="true" signature="10901:11844" ph="..." />
-                <marker date="1505111783421" expanded="true" signature="12141:12824" ph="..." />
-                <marker date="1505111783421" expanded="true" signature="13924:14494" ph="..." />
-                <marker date="1505111783421" expanded="true" signature="14796:16072" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/filter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="306" column="19" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vuejs.module" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
-              <folding>
-                <element signature="e#7#64#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cv_tuyendung.module" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/text">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="214" lean-forward="true" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="214" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="link" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/link">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -237,24 +38,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tyin</find>
-      <find>$cty</find>
-      <find>$id_cty</find>
-      <find>',</find>
-      <find>,</find>
-      <find>isset($value['id_cv']) ? $value['id_cv'] : NULL;</find>
-      <find>thongtin_coban</find>
-      <find>$info</find>
-      <find>thongtin_bantin</find>
-      <find>load_tintuyendung</find>
-      <find>'</find>
-      <find>load_id_cty</find>
-      <find>sodienthoai</find>
       <find>$file</find>
       <find>file</find>
       <find>$fid</find>
@@ -264,14 +53,27 @@
       <find>defaultDiacriticsRemovalMap</find>
       <find>u007E</find>
       <find>'#id</find>
-      <find>$form['#attached']['js']</find>
       <find>andTags</find>
       <find>tagGroups</find>
       <find>dobFrom</find>
       <find>App</find>
       <find>Vu</find>
       <find>Vue</find>
+      <find>perfectScrollbar</find>
       <find>page-search</find>
+      <find>candidates</find>
+      <find>diacriticsMap</find>
+      <find>removeDiacritics</find>
+      <find>normalize</find>
+      <find>matchSuggestion</find>
+      <find>goToPage</find>
+      <find>clickSuggestion</find>
+      <find>$join_databases</find>
+      <find>$option_filter</find>
+      <find>sodong</find>
+      <find>SET_option_filter</find>
+      <find>form_filter</find>
+      <find>$form['#attached']['js']</find>
     </findStrings>
     <replaceStrings>
       <replace>array(</replace>
@@ -291,7 +93,13 @@
       <replace>thongtin_baotin</replace>
       <replace>`</replace>
       <replace>$file</replace>
+      <replace>$filter_options</replace>
+      <replace>pages</replace>
+      <replace>SET_filter_options</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -313,6 +121,10 @@
         <option value="$PROJECT_DIR$/module/cv_tuyendung/timkiem/text" />
         <option value="$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module" />
         <option value="$PROJECT_DIR$/module/cv_tuyendung/js/vue.js" />
+        <option value="$PROJECT_DIR$/NOTE/request" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/timkiem/temple.html" />
+        <option value="$PROJECT_DIR$/module/cv_tuyendung/js/filter.js" />
+        <option value="D:/git/filter-form/uhpdgames-filter-v1.02.php" />
         <option value="$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc" />
       </list>
     </option>
@@ -340,12 +152,13 @@
       <path value="C:/xampp/htdocs/ctsv/sites/all/modules" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-50" />
     <option name="y" value="208" />
     <option name="width" value="1320" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -386,13 +199,6 @@
               <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -401,6 +207,11 @@
               <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="cv_tuyendung" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="timkiem" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="NOTE" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -412,6 +223,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -450,22 +262,22 @@
       <workItem from="1505705058428" duration="6087000" />
       <workItem from="1505718057763" duration="7706000" />
       <workItem from="1505810841399" duration="4280000" />
-      <workItem from="1505892770164" duration="4918000" />
+      <workItem from="1505892770164" duration="12033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33389000" />
+    <option name="totallyTimeSpent" value="40504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22334754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -519,158 +331,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/git/leak-uit/trungtam-kiemdinh-giaoduc/inc/gioithieu.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/tuyendung.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/templa.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
-          <folding>
-            <element signature="e#175#280#0#PHP" expanded="false" />
-            <element signature="e#594#915#0#PHP" expanded="false" />
-            <element signature="e#652#913#0#PHP" expanded="false" />
-            <element signature="e#763#828#0#PHP" expanded="false" />
-            <element signature="e#763#862#0#PHP" expanded="false" />
-            <element signature="e#886#913#0#PHP" expanded="false" />
-            <element signature="e#917#3270#0#PHP" expanded="false" />
-            <element signature="e#1040#1092#0#PHP" expanded="false" />
-            <element signature="e#1114#1173#0#PHP" expanded="false" />
-            <element signature="e#1207#1312#0#PHP" expanded="false" />
-            <element signature="e#1358#1528#0#PHP" expanded="false" />
-            <element signature="e#1571#1730#0#PHP" expanded="false" />
-            <element signature="e#1778#1938#0#PHP" expanded="false" />
-            <element signature="e#1980#2136#0#PHP" expanded="false" />
-            <element signature="e#2180#2342#0#PHP" expanded="false" />
-            <element signature="e#2384#2541#0#PHP" expanded="false" />
-            <element signature="e#2582#3082#0#PHP" expanded="false" />
-            <element signature="e#2768#3014#1#PHP" expanded="false" />
-            <element signature="e#3125#3191#0#PHP" expanded="false" />
-            <element signature="e#3271#4305#0#PHP" expanded="false" />
-            <element signature="e#3574#3706#0#PHP" expanded="false" />
-            <element signature="e#3725#3829#0#PHP" expanded="false" />
-            <element signature="e#3847#4235#0#PHP" expanded="false" />
-            <element signature="e#3874#4117#0#PHP" expanded="false" />
-            <element signature="e#4162#4235#0#PHP" expanded="false" />
-            <element signature="e#4306#5853#0#PHP" expanded="false" />
-            <element signature="e#4613#5851#0#PHP" expanded="false" />
-            <element signature="e#4705#4878#0#PHP" expanded="false" />
-            <element signature="e#4893#5446#0#PHP" expanded="false" />
-            <element signature="e#5452#5646#0#PHP" expanded="false" />
-            <element signature="e#5561#5646#0#PHP" expanded="false" />
-            <element signature="e#5731#5851#0#PHP" expanded="false" />
-            <element signature="e#5873#5916#0#PHP" expanded="false" />
-            <element signature="e#6046#6183#0#PHP" expanded="false" />
-            <element signature="e#6102#6179#0#PHP" expanded="false" />
-            <element signature="e#6203#6261#0#PHP" expanded="false" />
-            <element signature="e#6361#6430#0#PHP" expanded="false" />
-            <element signature="e#6461#6571#0#PHP" expanded="false" />
-            <element signature="e#6611#6773#0#PHP" expanded="false" />
-            <element signature="e#6812#6974#0#PHP" expanded="false" />
-            <element signature="e#7018#7193#0#PHP" expanded="false" />
-            <element signature="e#7234#7409#0#PHP" expanded="false" />
-            <element signature="e#7449#7611#0#PHP" expanded="false" />
-            <element signature="e#7654#7833#0#PHP" expanded="false" />
-            <element signature="e#7875#8043#0#PHP" expanded="false" />
-            <element signature="e#8087#8261#0#PHP" expanded="false" />
-            <element signature="e#8289#8363#0#PHP" expanded="false" />
-            <element signature="e#8402#8583#0#PHP" expanded="false" />
-            <element signature="e#8625#8845#0#PHP" expanded="false" />
-            <element signature="e#8738#8840#1#PHP" expanded="false" />
-            <element signature="e#8764#8833#1#PHP" expanded="false" />
-            <element signature="e#8903#9122#0#PHP" expanded="false" />
-            <element signature="e#9015#9117#1#PHP" expanded="false" />
-            <element signature="e#9041#9110#1#PHP" expanded="false" />
-            <element signature="e#9162#9382#0#PHP" expanded="false" />
-            <element signature="e#9275#9377#1#PHP" expanded="false" />
-            <element signature="e#9301#9370#1#PHP" expanded="false" />
-            <element signature="e#9436#9524#0#PHP" expanded="false" />
-            <element signature="e#9566#9745#0#PHP" expanded="false" />
-            <element signature="e#9788#9971#0#PHP" expanded="false" />
-            <element signature="e#10011#10185#0#PHP" expanded="false" />
-            <element signature="e#10223#10386#0#PHP" expanded="false" />
-            <element signature="e#10429#10617#0#PHP" expanded="false" />
-            <element signature="e#10665#10852#0#PHP" expanded="false" />
-            <element signature="e#10899#11085#0#PHP" expanded="false" />
-            <element signature="e#11133#11323#0#PHP" expanded="false" />
-            <element signature="e#11368#11541#0#PHP" expanded="false" />
-            <element signature="e#11564#11630#0#PHP" expanded="false" />
-            <element signature="e#11776#14363#0#PHP" expanded="false" />
-            <element signature="e#11910#14361#0#PHP" expanded="false" />
-            <element signature="e#12111#12259#0#PHP" expanded="false" />
-            <element signature="e#12135#12159#0#PHP" expanded="false" />
-            <element signature="e#12166#12188#0#PHP" expanded="false" />
-            <element signature="e#12195#12217#0#PHP" expanded="false" />
-            <element signature="e#12224#12253#0#PHP" expanded="false" />
-            <element signature="e#12283#12937#0#PHP" expanded="false" />
-            <element signature="e#12944#13176#0#PHP" expanded="false" />
-            <element signature="e#13083#13176#0#PHP" expanded="false" />
-            <element signature="e#13182#14157#0#PHP" expanded="false" />
-            <element signature="e#13222#13924#0#PHP" expanded="false" />
-            <element signature="e#13933#14151#0#PHP" expanded="false" />
-            <element signature="e#14033#14151#0#PHP" expanded="false" />
-            <element signature="e#14241#14361#0#PHP" expanded="false" />
-            <element signature="e#14379#14435#0#PHP" expanded="false" />
-            <element signature="e#14436#14720#0#PHP" expanded="false" />
-            <element signature="e#14484#14561#0#PHP" expanded="false" />
-            <element signature="e#14536#14561#0#PHP" expanded="false" />
-            <element signature="e#14581#14648#0#PHP" expanded="false" />
-            <element signature="e#14581#14682#0#PHP" expanded="false" />
-            <element signature="e#14722#14787#0#PHP" expanded="false" />
-            <element signature="e#14788#14957#0#PHP" expanded="false" />
-            <element signature="e#14841#14891#0#PHP" expanded="false" />
-            <element signature="e#14841#14918#0#PHP" expanded="false" />
-            <element signature="e#14959#15026#0#PHP" expanded="false" />
-            <element signature="e#15027#15218#0#PHP" expanded="false" />
-            <element signature="e#15085#15146#0#PHP" expanded="false" />
-            <element signature="e#15085#15179#0#PHP" expanded="false" />
-            <element signature="e#15220#15288#0#PHP" expanded="false" />
-            <element signature="e#15289#15463#0#PHP" expanded="false" />
-            <element signature="e#15338#15393#0#PHP" expanded="false" />
-            <element signature="e#15338#15424#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
-    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
-    <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
-    <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
-    <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
     <entry file="file://$PROJECT_DIR$/cv_tuyendung.module" />
     <entry file="file://$PROJECT_DIR$/inc/tuyendung.inc" />
     <entry file="file://$PROJECT_DIR$/cv_tuyendung.info" />
@@ -779,23 +439,444 @@
     <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/text">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="214" lean-forward="true" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="214" />
+          <caret line="0" column="214" lean-forward="false" selection-start-line="0" selection-start-column="214" selection-end-line="0" selection-end-column="214" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="e#7#64#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/filter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#486#561#0#PHP" expanded="false" />
+            <element signature="n#gxn_filters#0;n#!!top" expanded="false" />
+            <element signature="e#706#822#0#PHP" expanded="false" />
+            <element signature="e#827#1716#0#PHP" expanded="false" />
+            <element signature="e#908#1710#0#PHP" expanded="false" />
+            <element signature="e#1013#1318#0#PHP" expanded="false" />
+            <element signature="e#1338#1710#0#PHP" expanded="false" />
+            <element signature="e#1413#1699#0#PHP" expanded="false" />
+            <element signature="e#1742#2019#0#PHP" expanded="false" />
+            <element signature="n#gxn_set_filters#0;n#!!top" expanded="false" />
+            <element signature="e#2177#2790#0#PHP" expanded="false" />
+            <element signature="e#2229#2784#0#PHP" expanded="false" />
+            <element signature="e#2298#2695#0#PHP" expanded="false" />
+            <element signature="e#2441#2578#0#PHP" expanded="false" />
+            <element signature="e#2605#2695#0#PHP" expanded="false" />
+            <element signature="e#2714#2784#0#PHP" expanded="false" />
+            <element signature="n#gxn_filter_form#0;n#!!top" expanded="false" />
+            <element signature="e#2950#3118#0#PHP" expanded="false" />
+            <element signature="e#2998#3112#0#PHP" expanded="false" />
+            <element signature="n#gxn_search_value#0;n#!!top" expanded="false" />
+            <element signature="e#3206#3671#0#PHP" expanded="false" />
+            <element signature="e#3319#3665#0#PHP" expanded="false" />
+            <element signature="e#3345#3382#0#PHP" expanded="false" />
+            <element signature="e#3478#3562#0#PHP" expanded="false" />
+            <element signature="e#3575#3655#0#PHP" expanded="false" />
+            <element signature="n#gxn_custom_fields_search#0;n#!!top" expanded="false" />
+            <element signature="e#3754#4863#0#PHP" expanded="false" />
+            <element signature="e#3778#4511#0#PHP" expanded="false" />
+            <element signature="e#3831#4492#0#PHP" expanded="false" />
+            <element signature="e#3895#4038#0#PHP" expanded="false" />
+            <element signature="e#4055#4260#0#PHP" expanded="false" />
+            <element signature="e#4277#4421#0#PHP" expanded="false" />
+            <element signature="e#4438#4478#0#PHP" expanded="false" />
+            <element signature="e#4520#4831#0#PHP" expanded="false" />
+            <element signature="e#4578#4812#0#PHP" expanded="false" />
+            <element signature="e#4612#4798#0#PHP" expanded="false" />
+            <element signature="n#gxn_fields_header_data#0;n#!!top" expanded="false" />
+            <element signature="e#5076#5671#0#PHP" expanded="false" />
+            <element signature="e#5100#5455#0#PHP" expanded="false" />
+            <element signature="e#5464#5665#0#PHP" expanded="false" />
+            <element signature="n#gxn_chuaxuly_sinhvien_render_items#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6521#0#PHP" expanded="false" />
+            <element signature="e#6555#6623#0#PHP" expanded="false" />
+            <element signature="e#6555#6653#0#PHP" expanded="false" />
+            <element signature="e#6973#7065#0#PHP" expanded="false" />
+            <element signature="e#6973#7110#0#PHP" expanded="false" />
+            <element signature="e#6973#7150#0#PHP" expanded="false" />
+            <element signature="e#7190#7939#0#PHP" expanded="false" />
+            <element signature="e#7270#7932#0#PHP" expanded="false" />
+            <element signature="e#7516#7766#1#PHP" expanded="false" />
+            <element signature="e#7532#7765#1#PHP" expanded="false" />
+            <element signature="n#gxn_thongke_render_list#0;n#!!top" expanded="false" />
+            <element signature="e#8254#8641#0#PHP" expanded="false" />
+            <element signature="e#8656#8724#0#PHP" expanded="false" />
+            <element signature="e#8656#8754#0#PHP" expanded="false" />
+            <element signature="e#9035#9080#0#PHP" expanded="false" />
+            <element signature="e#9035#9113#0#PHP" expanded="false" />
+            <element signature="e#9035#9148#0#PHP" expanded="false" />
+            <element signature="e#9351#9712#0#PHP" expanded="false" />
+            <element signature="e#9396#9678#0#PHP" expanded="false" />
+            <element signature="e#9985#10059#0#PHP" expanded="false" />
+            <element signature="n#export_thongke_gxn#0;n#!!top" expanded="false" />
+            <element signature="e#10846#11062#0#PHP" expanded="false" />
+            <element signature="e#11760#11868#0#PHP" expanded="false" />
+            <element signature="e#12036#12144#0#PHP" expanded="false" />
+            <element signature="e#12360#12470#0#PHP" expanded="false" />
+            <element signature="e#12755#12863#0#PHP" expanded="false" />
+            <element signature="e#13000#13429#0#PHP" expanded="false" />
+            <element signature="e#13530#13638#0#PHP" expanded="false" />
+            <element signature="e#14307#15049#0#PHP" expanded="false" />
+            <element signature="e#15071#15189#0#PHP" expanded="false" />
+            <element signature="e#15720#16361#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gxn/gxn.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/cv_tuyendung.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/libs/select2-7.x-1.0/select2/select2.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="375" column="20" lean-forward="false" selection-start-line="375" selection-start-column="20" selection-end-line="375" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/libs/select2-7.x-1.0/select2/js/Drupal.select2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3075">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/libs/select2-7.x-1.0/select2/includes/ajax.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/libs/select2-7.x-1.0/select2/pages/select2.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3235">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1448093384000" expanded="true" signature="3618:3915" ph="..." />
+            <marker date="1448093384000" expanded="true" signature="6107:6577" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/libs/select2-7.x-1.0/select2/select2.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="271" column="21" lean-forward="false" selection-start-line="271" selection-start-column="21" selection-end-line="271" selection-end-column="21" />
+          <folding>
+            <element signature="e#182#10110#0" expanded="false" />
+            <element signature="e#183#439#0" expanded="false" />
+            <element signature="e#441#500#0" expanded="false" />
+            <element signature="e#502#573#0" expanded="false" />
+            <element signature="e#575#634#0" expanded="false" />
+            <element signature="e#636#695#0" expanded="false" />
+            <element signature="e#697#762#0" expanded="false" />
+            <element signature="e#764#823#0" expanded="false" />
+            <element signature="e#825#931#0" expanded="false" />
+            <element signature="e#933#1057#0" expanded="false" />
+            <element signature="e#1059#1201#0" expanded="false" />
+            <element signature="e#1203#1268#0" expanded="false" />
+            <element signature="e#1270#1335#0" expanded="false" />
+            <element signature="e#1337#1569#0" expanded="false" />
+            <element signature="e#1571#1659#0" expanded="false" />
+            <element signature="e#1661#1803#0" expanded="false" />
+            <element signature="e#1805#1941#0" expanded="false" />
+            <element signature="e#1943#2115#0" expanded="false" />
+            <element signature="e#2117#2199#0" expanded="false" />
+            <element signature="e#2201#2337#0" expanded="false" />
+            <element signature="e#2339#2499#0" expanded="false" />
+            <element signature="e#2501#2560#0" expanded="false" />
+            <element signature="e#2562#2621#0" expanded="false" />
+            <element signature="e#2623#2723#0" expanded="false" />
+            <element signature="e#2725#2873#0" expanded="false" />
+            <element signature="e#2875#2934#0" expanded="false" />
+            <element signature="e#2936#2995#0" expanded="false" />
+            <element signature="e#2997#3307#0" expanded="false" />
+            <element signature="e#3309#3368#0" expanded="false" />
+            <element signature="e#3370#3429#0" expanded="false" />
+            <element signature="e#3431#3490#0" expanded="false" />
+            <element signature="e#3492#3557#0" expanded="false" />
+            <element signature="e#3559#3624#0" expanded="false" />
+            <element signature="e#3626#3738#0" expanded="false" />
+            <element signature="e#3740#3828#0" expanded="false" />
+            <element signature="e#3830#3984#0" expanded="false" />
+            <element signature="e#3986#4140#0" expanded="false" />
+            <element signature="e#4142#4284#0" expanded="false" />
+            <element signature="e#4286#4345#0" expanded="false" />
+            <element signature="e#4347#4603#0" expanded="false" />
+            <element signature="e#4605#4705#0" expanded="false" />
+            <element signature="e#4707#4766#0" expanded="false" />
+            <element signature="e#4768#4880#0" expanded="false" />
+            <element signature="e#4882#4964#0" expanded="false" />
+            <element signature="e#4966#5108#0" expanded="false" />
+            <element signature="e#5110#5246#0" expanded="false" />
+            <element signature="e#5248#5510#0" expanded="false" />
+            <element signature="e#5512#5571#0" expanded="false" />
+            <element signature="e#5573#5644#0" expanded="false" />
+            <element signature="e#5646#5705#0" expanded="false" />
+            <element signature="e#5707#5766#0" expanded="false" />
+            <element signature="e#5768#5833#0" expanded="false" />
+            <element signature="e#5835#5894#0" expanded="false" />
+            <element signature="e#5896#6002#0" expanded="false" />
+            <element signature="e#6004#6134#0" expanded="false" />
+            <element signature="e#6136#6272#0" expanded="false" />
+            <element signature="e#6274#6339#0" expanded="false" />
+            <element signature="e#6341#6579#0" expanded="false" />
+            <element signature="e#6581#6669#0" expanded="false" />
+            <element signature="e#6671#6813#0" expanded="false" />
+            <element signature="e#6815#6957#0" expanded="false" />
+            <element signature="e#6959#7018#0" expanded="false" />
+            <element signature="e#7020#7192#0" expanded="false" />
+            <element signature="e#7194#7282#0" expanded="false" />
+            <element signature="e#7284#7420#0" expanded="false" />
+            <element signature="e#7422#7588#0" expanded="false" />
+            <element signature="e#7590#7649#0" expanded="false" />
+            <element signature="e#7651#7751#0" expanded="false" />
+            <element signature="e#7753#7907#0" expanded="false" />
+            <element signature="e#7909#7968#0" expanded="false" />
+            <element signature="e#7970#8280#0" expanded="false" />
+            <element signature="e#8282#8341#0" expanded="false" />
+            <element signature="e#8343#8402#0" expanded="false" />
+            <element signature="e#8404#8463#0" expanded="false" />
+            <element signature="e#8465#8577#0" expanded="false" />
+            <element signature="e#8579#8667#0" expanded="false" />
+            <element signature="e#8669#8823#0" expanded="false" />
+            <element signature="e#8825#8985#0" expanded="false" />
+            <element signature="e#8987#9135#0" expanded="false" />
+            <element signature="e#9137#9196#0" expanded="false" />
+            <element signature="e#9198#9454#0" expanded="false" />
+            <element signature="e#9456#9556#0" expanded="false" />
+            <element signature="e#9558#9617#0" expanded="false" />
+            <element signature="e#9619#9737#0" expanded="false" />
+            <element signature="e#9739#9821#0" expanded="false" />
+            <element signature="e#9823#9971#0" expanded="false" />
+            <element signature="e#9973#10109#0" expanded="false" />
+            <element signature="e#10489#10612#0" expanded="false" />
+            <element signature="e#10551#10602#0" expanded="false" />
+            <element signature="e#10650#10698#0" expanded="false" />
+            <element signature="e#11804#12549#0" expanded="false" />
+            <element signature="e#11880#11987#0" expanded="false" />
+            <element signature="e#12569#15537#0" expanded="false" />
+            <element signature="e#12603#12850#0" expanded="false" />
+            <element signature="e#12689#12812#0" expanded="false" />
+            <element signature="e#12748#12798#0" expanded="false" />
+            <element signature="e#12882#13112#0" expanded="false" />
+            <element signature="e#12968#13074#0" expanded="false" />
+            <element signature="e#13010#13060#0" expanded="false" />
+            <element signature="e#13149#13504#0" expanded="false" />
+            <element signature="e#13301#13467#0" expanded="false" />
+            <element signature="e#13350#13451#0" expanded="false" />
+            <element signature="e#13538#13884#0" expanded="false" />
+            <element signature="e#13681#13847#0" expanded="false" />
+            <element signature="e#13730#13831#0" expanded="false" />
+            <element signature="e#13918#14268#0" expanded="false" />
+            <element signature="e#14065#14231#0" expanded="false" />
+            <element signature="e#14114#14215#0" expanded="false" />
+            <element signature="e#14298#14636#0" expanded="false" />
+            <element signature="e#14433#14599#0" expanded="false" />
+            <element signature="e#14482#14583#0" expanded="false" />
+            <element signature="e#14671#15190#0" expanded="false" />
+            <element signature="e#14721#14761#0" expanded="false" />
+            <element signature="e#14830#14892#0" expanded="false" />
+            <element signature="e#14988#15049#0" expanded="false" />
+            <element signature="e#15107#15154#0" expanded="false" />
+            <element signature="e#15226#15316#0" expanded="false" />
+            <element signature="e#15350#15430#0" expanded="false" />
+            <element signature="e#15470#15526#0" expanded="false" />
+            <element signature="e#15554#15783#0" expanded="false" />
+            <element signature="e#15587#15628#0" expanded="false" />
+            <element signature="e#15659#15700#0" expanded="false" />
+            <element signature="e#15731#15772#0" expanded="false" />
+            <element signature="e#15813#21397#0" expanded="false" />
+            <element signature="e#15858#15935#0" expanded="false" />
+            <element signature="e#15978#16050#0" expanded="false" />
+            <element signature="e#16098#16234#0" expanded="false" />
+            <element signature="e#16281#16417#0" expanded="false" />
+            <element signature="e#16465#16601#0" expanded="false" />
+            <element signature="e#16672#21229#0" expanded="false" />
+            <element signature="e#16736#16830#0" expanded="false" />
+            <element signature="e#16884#16966#0" expanded="false" />
+            <element signature="e#17088#17176#0" expanded="false" />
+            <element signature="e#17298#17386#0" expanded="false" />
+            <element signature="e#17490#17570#0" expanded="false" />
+            <element signature="e#17670#17746#0" expanded="false" />
+            <element signature="e#17817#17940#0" expanded="false" />
+            <element signature="e#18038#18522#0" expanded="false" />
+            <element signature="e#18122#18408#0" expanded="false" />
+            <element signature="e#18267#18392#0" expanded="false" />
+            <element signature="e#18618#19096#0" expanded="false" />
+            <element signature="e#18701#18984#0" expanded="false" />
+            <element signature="e#18845#18968#0" expanded="false" />
+            <element signature="e#19194#19677#0" expanded="false" />
+            <element signature="e#19278#19563#0" expanded="false" />
+            <element signature="e#19423#19547#0" expanded="false" />
+            <element signature="e#19746#20039#0" expanded="false" />
+            <element signature="e#19843#20025#0" expanded="false" />
+            <element signature="e#19935#20009#0" expanded="false" />
+            <element signature="e#20107#20394#0" expanded="false" />
+            <element signature="e#20201#20380#0" expanded="false" />
+            <element signature="e#20290#20364#0" expanded="false" />
+            <element signature="e#20463#20752#0" expanded="false" />
+            <element signature="e#20558#20738#0" expanded="false" />
+            <element signature="e#20648#20722#0" expanded="false" />
+            <element signature="e#20814#21189#0" expanded="false" />
+            <element signature="e#20880#21173#0" expanded="false" />
+            <element signature="e#20973#21157#0" expanded="false" />
+            <element signature="e#21061#21139#0" expanded="false" />
+            <element signature="e#21235#21387#0" expanded="false" />
+            <element signature="e#21330#21375#0" expanded="false" />
+            <element signature="e#21427#22001#0" expanded="false" />
+            <element signature="e#21513#21989#0" expanded="false" />
+            <element signature="e#21577#21620#0" expanded="false" />
+            <element signature="e#21664#21707#0" expanded="false" />
+            <element signature="e#21745#21799#0" expanded="false" />
+            <element signature="e#21837#21886#0" expanded="false" />
+            <element signature="e#21924#21977#0" expanded="false" />
+            <element signature="e#23064#23117#0" expanded="false" />
+            <element signature="e#23200#23251#0" expanded="false" />
+            <element signature="e#23337#23390#0" expanded="false" />
+            <element signature="e#25067#25321#0" expanded="false" />
+            <element signature="e#25355#25636#0" expanded="false" />
+            <element signature="e#25434#25534#0" expanded="false" />
+            <element signature="e#25540#25624#0" expanded="false" />
+            <element signature="e#25673#25738#0" expanded="false" />
+            <element signature="e#25772#25845#0" expanded="false" />
+            <element signature="e#26158#26528#0" expanded="false" />
+            <element signature="e#26552#27035#0" expanded="false" />
+            <element signature="e#26658#26930#0" expanded="false" />
+            <element signature="e#26710#26914#0" expanded="false" />
+            <element signature="e#27096#27275#0" expanded="false" />
+            <element signature="e#27138#27214#0" expanded="false" />
+            <element signature="e#27313#27521#0" expanded="false" />
+            <element signature="e#27563#27810#0" expanded="false" />
+            <element signature="e#27859#28300#0" expanded="false" />
+            <element signature="e#28052#28168#0" expanded="false" />
+            <element signature="e#28099#28154#0" expanded="false" />
+            <element signature="e#28207#28255#0" expanded="false" />
+            <element signature="e#28352#28409#0" expanded="false" />
+            <element signature="e#28456#28580#0" expanded="false" />
+            <marker date="1505900917874" expanded="false" signature="10826:11386" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="10990:11373" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="11035:11230" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="11095:11216" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="11150:11200" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="11469:11533" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="11571:11707" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="11613:11646" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="22265:22768" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="22342:22459" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="22541:22754" ph="{...}" />
+            <marker date="1505900917874" expanded="false" signature="22615:22738" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/filter-form/uhpdgames-filter-v1.01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4887">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#112#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/filter-form/uhpdgames-filter-v1.02.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="367" column="3" lean-forward="false" selection-start-line="367" selection-start-column="3" selection-end-line="367" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#178#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+          <folding>
+            <element signature="e#109#118#0#PHP" expanded="false" />
+            <element signature="e#1454#1861#0#PHP" expanded="false" />
+            <element signature="e#1750#1856#1#PHP" expanded="false" />
+            <element signature="e#1900#2204#0#PHP" expanded="false" />
+            <element signature="e#2238#2304#0#PHP" expanded="false" />
+            <marker date="1505905596793" expanded="false" signature="2485:2657" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/git/libs/vuejs-7.x-1.0-beta1/vuejs/vuejs.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/timkiem/temple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1292" column="36" lean-forward="false" selection-start-line="1292" selection-start-column="36" selection-end-line="1292" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/sinhvien.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="501" column="49" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+        <state relative-caret-position="99">
+          <caret line="489" column="24" lean-forward="true" selection-start-line="489" selection-start-column="24" selection-end-line="489" selection-end-column="24" />
           <folding>
             <marker date="1505111783421" expanded="false" signature="506:512" ph=" " />
             <marker date="1505111783421" expanded="false" signature="512:518" ph=" " />
@@ -814,36 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/vuejs/vuejs.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
-          <folding>
-            <element signature="e#7#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="306" column="19" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/tuyendung.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
-          <caret line="222" column="18" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <caret line="222" column="18" lean-forward="false" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
           <folding>
             <element signature="e#175#280#0#PHP" expanded="false" />
             <element signature="e#594#915#0#PHP" expanded="false" />
@@ -950,119 +1005,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/xampp/htdocs/ctsv/sites/all/modules/gxn/filter.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#486#561#0#PHP" expanded="false" />
-            <element signature="n#gxn_filters#0;n#!!top" expanded="false" />
-            <element signature="e#706#822#0#PHP" expanded="false" />
-            <element signature="e#827#1716#0#PHP" expanded="false" />
-            <element signature="e#908#1710#0#PHP" expanded="false" />
-            <element signature="e#1013#1318#0#PHP" expanded="false" />
-            <element signature="e#1338#1710#0#PHP" expanded="false" />
-            <element signature="e#1413#1699#0#PHP" expanded="false" />
-            <element signature="e#1742#2019#0#PHP" expanded="false" />
-            <element signature="n#gxn_set_filters#0;n#!!top" expanded="false" />
-            <element signature="e#2177#2790#0#PHP" expanded="false" />
-            <element signature="e#2229#2784#0#PHP" expanded="false" />
-            <element signature="e#2298#2695#0#PHP" expanded="false" />
-            <element signature="e#2441#2578#0#PHP" expanded="false" />
-            <element signature="e#2605#2695#0#PHP" expanded="false" />
-            <element signature="e#2714#2784#0#PHP" expanded="false" />
-            <element signature="n#gxn_filter_form#0;n#!!top" expanded="false" />
-            <element signature="e#2950#3118#0#PHP" expanded="false" />
-            <element signature="e#2998#3112#0#PHP" expanded="false" />
-            <element signature="n#gxn_search_value#0;n#!!top" expanded="false" />
-            <element signature="e#3206#3671#0#PHP" expanded="false" />
-            <element signature="e#3319#3665#0#PHP" expanded="false" />
-            <element signature="e#3345#3382#0#PHP" expanded="false" />
-            <element signature="e#3478#3562#0#PHP" expanded="false" />
-            <element signature="e#3575#3655#0#PHP" expanded="false" />
-            <element signature="n#gxn_custom_fields_search#0;n#!!top" expanded="false" />
-            <element signature="e#3754#4863#0#PHP" expanded="false" />
-            <element signature="e#3778#4511#0#PHP" expanded="false" />
-            <element signature="e#3831#4492#0#PHP" expanded="false" />
-            <element signature="e#3895#4038#0#PHP" expanded="false" />
-            <element signature="e#4055#4260#0#PHP" expanded="false" />
-            <element signature="e#4277#4421#0#PHP" expanded="false" />
-            <element signature="e#4438#4478#0#PHP" expanded="false" />
-            <element signature="e#4520#4831#0#PHP" expanded="false" />
-            <element signature="e#4578#4812#0#PHP" expanded="false" />
-            <element signature="e#4612#4798#0#PHP" expanded="false" />
-            <element signature="n#gxn_fields_header_data#0;n#!!top" expanded="false" />
-            <element signature="e#5076#5671#0#PHP" expanded="false" />
-            <element signature="e#5100#5455#0#PHP" expanded="false" />
-            <element signature="e#5464#5665#0#PHP" expanded="false" />
-            <element signature="n#gxn_chuaxuly_sinhvien_render_items#0;n#!!top" expanded="false" />
-            <element signature="e#5974#6521#0#PHP" expanded="false" />
-            <element signature="e#6555#6623#0#PHP" expanded="false" />
-            <element signature="e#6555#6653#0#PHP" expanded="false" />
-            <element signature="e#6973#7065#0#PHP" expanded="false" />
-            <element signature="e#6973#7110#0#PHP" expanded="false" />
-            <element signature="e#6973#7150#0#PHP" expanded="false" />
-            <element signature="e#7190#7939#0#PHP" expanded="false" />
-            <element signature="e#7270#7932#0#PHP" expanded="false" />
-            <element signature="e#7516#7766#1#PHP" expanded="false" />
-            <element signature="e#7532#7765#1#PHP" expanded="false" />
-            <element signature="n#gxn_thongke_render_list#0;n#!!top" expanded="false" />
-            <element signature="e#8254#8641#0#PHP" expanded="false" />
-            <element signature="e#8656#8724#0#PHP" expanded="false" />
-            <element signature="e#8656#8754#0#PHP" expanded="false" />
-            <element signature="e#9035#9080#0#PHP" expanded="false" />
-            <element signature="e#9035#9113#0#PHP" expanded="false" />
-            <element signature="e#9035#9148#0#PHP" expanded="false" />
-            <element signature="e#9351#9712#0#PHP" expanded="false" />
-            <element signature="e#9396#9678#0#PHP" expanded="false" />
-            <element signature="e#9985#10059#0#PHP" expanded="false" />
-            <element signature="n#export_thongke_gxn#0;n#!!top" expanded="false" />
-            <element signature="e#10846#11062#0#PHP" expanded="false" />
-            <element signature="e#11760#11868#0#PHP" expanded="false" />
-            <element signature="e#12036#12144#0#PHP" expanded="false" />
-            <element signature="e#12360#12470#0#PHP" expanded="false" />
-            <element signature="e#12755#12863#0#PHP" expanded="false" />
-            <element signature="e#13000#13429#0#PHP" expanded="false" />
-            <element signature="e#13530#13638#0#PHP" expanded="false" />
-            <element signature="e#14307#15049#0#PHP" expanded="false" />
-            <element signature="e#15071#15189#0#PHP" expanded="false" />
-            <element signature="e#15720#16361#0#PHP" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/NOTE/distr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/js/vue.js">
+    <entry file="file://$PROJECT_DIR$/NOTE/request">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="10182" column="5" lean-forward="false" selection-start-line="10182" selection-start-column="5" selection-end-line="10182" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gxn/gxn.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/cv_tuyendung/inc/filter.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#118#0#PHP" expanded="false" />
-            <element signature="e#487#643#0#PHP" expanded="false" />
-            <element signature="e#674#924#0#PHP" expanded="false" />
-            <element signature="e#962#1243#0#PHP" expanded="false" />
-            <element signature="e#1281#1562#0#PHP" expanded="false" />
-            <element signature="e#1601#1878#0#PHP" expanded="false" />
-            <element signature="e#1912#1978#0#PHP" expanded="false" />
-            <element signature="n#timkiem_pages_submit#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

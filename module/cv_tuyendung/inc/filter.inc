@@ -20,21 +20,21 @@ function timkiem_pages($form, &$form_state) {
 
   $form['thongtin'] = array(
     '#type' => 'fieldset',
-    '#title' => t('xxxsads'),
+    '#title' => t('TIm` kiem'),
     '#collapsible' => TRUE,
     '#prefix' => '<div id="page-search" class="container">',
     '#suffix' => '</div>',
   );
 
-  $form['thongtin']['vt'] = array(
+  $form['thongtin']['vitrimongmuon'] = array(
     '#type' => 'textfield',
     '#title' => t(' Vị trí công việc'),
-    '#required' => TRUE,
+    //'#required' => TRUE,
     '#default_value' => null,
     '#id' => 'keyword'
   );
 
-  $form['thongtin']['dd'] = array(
+  $form['thongtin']['diachi'] = array(
     '#type' => 'select',
     '#multiple' => TRUE,
     '#title' => t('Địa điểm'),
@@ -44,9 +44,11 @@ function timkiem_pages($form, &$form_state) {
     '#weight' => 0,
     //'#default_value' => 1,
     '#id' => 'location-selector',
+    '#select2' => array(),
+
   );
 
-  $form['thongtin']['or_select'] = array(
+  $form['thongtin']['or_kynang'] = array(
     '#type' => 'select',
     '#multiple' => TRUE,
     '#title' => t(' Có một trong những từ khoá sau '),
@@ -56,8 +58,14 @@ function timkiem_pages($form, &$form_state) {
     '#weight' => 0,
     //'#default_value' => 1,
     '#id' => 'or-keyword-selector',
+    '#select2' => array(
+      'width' => '150',
+      'placeholder' => 'Placeholder text',
+      'allowClear'   => TRUE,
+
+),
   );
-  $form['thongtin']['and_select'] = array(
+  $form['thongtin']['and_kynang'] = array(
     '#type' => 'select',
     '#multiple' => TRUE,
     '#title' => t('Bắt buộc có các từ khoá sau'),
@@ -67,9 +75,15 @@ function timkiem_pages($form, &$form_state) {
     '#weight' => 0,
     //'#default_value' => 1,
     '#id' => 'and-keyword-selector',
+    '#select2' => array(
+      'width' => '150',
+      'placeholder' => 'Placeholder text',
+      'allowClear'   => TRUE,
+
+),
   );
 
-  $form['thongtin']['nor_select'] = array(
+  $form['thongtin']['not_kynang'] = array(
     '#type' => 'select',
     '#multiple' => TRUE,
     '#title' => t('Không có những từ khoá sau'),
@@ -79,6 +93,7 @@ function timkiem_pages($form, &$form_state) {
     '#weight' => 0,
     //'#default_value' => 1,
     '#id' => 'not-keyword-selector',
+    '#select2' => array(),
   );
   $form['thongtin']['submit'] = array(
     '#type' => 'submit',
@@ -87,15 +102,17 @@ function timkiem_pages($form, &$form_state) {
  // $form['thongtin']['#attached']['js'] = array(drupal_get_path('module', 'cv_tuyendung') . 'timkiem/filter.js');
 
 
-  $form['thongtin']['#attached'] = array(
+/*  $form['thongtin']['#attached'] = array(
     'js' => array(
       array('data' => drupal_get_path('module', 'cv_tuyendung') . '/js/filter.js'),
-      array('data' => drupal_get_path('module', 'test_module') . '/js/vue.js'),
+  //    array('data' => drupal_get_path('module', 'cv_tuyendung') . '/js/vue.js'),
     ),
-  );
+  );*/
 
   return $form;
 }
 function timkiem_pages_submit($form, &$form_state) {
 
+  $values = $form_state['values'];
+  dpm($values, 'value');
 }
