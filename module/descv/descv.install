@@ -1,0 +1,553 @@
+<?php
+/* Create Database */
+function descv_schema() {
+    // 1. THÔNG TIN CHUNG
+  $schema['cv'] = array(
+    'description' => 'Design SV.',
+    'fields' => array(
+      'cvid'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'uid' => array(
+        'type' => 'int',
+        'length' => 10,
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "Creator user's {users}.uid",
+      ),
+       'tieude' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Tiêu đề.',
+      ),
+      'time' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Thời gian tạo, chỉnh sửa.',
+      ),
+      'hoten' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => 'Họ tên.',
+      ),
+      'anhdaidien' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Ảnh đại diện.',
+      ),
+      'vitrimongmuon' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Vị trí mong muốn.',
+      ),
+      'ngaysinh' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => 'Ngày sinh.',
+      ),
+      'gioitinh' => array(
+        'type' => 'varchar',
+        'length' => 3,
+        'not null' => TRUE,
+        'description' => 'Giới tính.',
+      ),
+      'sdt' => array(
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => TRUE,
+        'description' => 'Số điện thoại.',
+      ),
+      'email' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => 'Email.',
+      ),
+      'diachi' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => 'Địa chỉ hiện tại.',
+      ),
+       'website' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => 'Website, Facebook, Blog,..',
+      ),
+       'sapxep' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => 'Sắp xếp các mục.',
+      ),
+    ),
+    'primary key' => array('cvid'),
+    'indexes' => array(
+      'uid'    => array('uid'),
+    ),
+    'foreign keys' => array(
+        'cv_author' => array(
+          'table' => 'users',
+          'columns' => array('uid' => 'uid'),
+         ),
+   ),
+  );
+    // 2. MỤC TIÊU
+    $schema['cv_muctieu'] = array(
+    'description' => 'Table Mục tiêu.',
+    'fields' => array(
+      'muctieu_id'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'muctieu' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => 'Mục tiêu nghề nghiệp.',
+      ),
+   ),
+    'primary key' => array('muctieu_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'mt_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+    // 3. KỸ NĂNG
+    $schema['cv_kynang'] = array(
+    'description' => 'Table Kỹ năng.',
+    'fields' => array(
+      'kynang_id'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'loai' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Loại kỹ năng.',
+      ),
+       'mucdo' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'length' => 5,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "Mức độ.",
+      ),
+   ),
+    'primary key' => array('kynang_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'kn_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+    // 4. SỞ THÍCH
+    $schema['cv_sothich'] = array(
+    'description' => 'Table Mục tiêu.',
+    'fields' => array(
+      'sothich_id'  => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'sothich' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Sở thích.',
+      ),
+   ),
+    'primary key' => array('sothich_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'st_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+    // 5. THAM CHIẾU
+    $schema['cv_thamchieu'] = array(
+    'description' => 'Table Người tham chiếu.',
+    'fields' => array(
+      'thamchieu_id'  => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'thongtin' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => 'Thông tin người tham chiếu.',
+      ),
+   ),
+    'primary key' => array('thamchieu_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'tc_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+    // 6. THÔNG TIN THÊM
+  $schema['cv_them'] = array(
+    'description' => 'Table Thông tin thêm.',
+    'fields' => array(
+      'them_id'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'thongtin' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => 'Thông tin.',
+      ),
+   ),
+    'primary key' => array('them_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'them_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+    // 7. HỌC VẤN
+    $schema['cv_hocvan'] = array(
+    'description' => 'Table Học vấn.',
+    'fields' => array(
+      'hocvan_id'  => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'batdau' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian bắt đầu.",
+      ),
+      'ketthuc' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian kết thúc.",
+      ),
+      'tentruong' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => "Tên trường.",
+      ),
+      'nganh' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => "Ngành học, môn học.",
+      ),
+      'chitiet' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => "Mô tả chi tiết.",
+      ),
+   ),
+    'primary key' => array('hocvan_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'hv_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+    // 8. KINH NGHIỆM LÀM VIỆC
+    $schema['cv_kinhnghiem'] = array(
+    'description' => 'Table Kinh nghiệm làm việc.',
+    'fields' => array(
+      'kinhnghiem_id'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'batdau' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian bắt đầu.",
+      ),
+      'ketthuc' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian kết thúc.",
+      ),
+      'tencongty' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => "Tên công ty.",
+      ),
+      'vitri' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => "Vị trí công việc.",
+      ),
+      'chitiet' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => "Mô tả chi tiết.",
+      ),
+   ),
+    'primary key' => array('kinhnghiem_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'kn_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+     // 9. HOẠT ĐỘNG
+    $schema['cv_hoatdong'] = array(
+    'description' => 'Table Hoạt động.',
+    'fields' => array(
+      'hoatdong_id'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'batdau' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian bắt đầu.",
+      ),
+      'ketthuc' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian kết thúc.",
+      ),
+      'tentochuc' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => "Tên tổ chức.",
+      ),
+      'vitri' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => "Vị trí tham gia.",
+      ),
+      'chitiet' => array(
+        'type' => 'text',
+        'size' => 'normal',
+        'not null' => TRUE,
+        'description' => "Mô tả chi tiết.",
+      ),
+   ),
+    'primary key' => array('hoatdong_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'hd_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+      // 10. CHỨNG CHỈ
+    $schema['cv_chungchi'] = array(
+    'description' => 'Table Chứng chỉ.',
+    'fields' => array(
+      'chungchi_id'  => array(
+        'type' => 'serial',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'ten' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Tên chứng chỉ.',
+      ),
+       'thoigian' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian.",
+      ),
+   ),
+    'primary key' => array('chungchi_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'cc_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+       // 11. GIẢI THƯỞNG
+    $schema['cv_giaithuong'] = array(
+    'description' => 'Table Chứng chỉ.',
+    'fields' => array(
+      'giaithuong_id'  => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'description' => 'Primary Key: ID.',
+      ),
+      'cvid' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE, 
+        'default' => 0,
+        'description' => "id CV parent",
+      ),
+      'ten' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Tên giải thưởng.',
+      ),
+       'thoigian' => array(
+        'type' => 'varchar',
+        'length' => 50,
+        'not null' => TRUE,
+        'description' => "Thời gian.",
+      ),
+   ),
+    'primary key' => array('giaithuong_id'),
+    'indexes' => array(
+      'cvid'    => array('cvid'),
+    ),
+    'foreign keys' => array(
+        'gt_parent' => array(
+          'table' => 'cv',
+          'columns' => array('cvid' => 'cvid'),
+         ),
+   ),
+  ); 
+
+    
+    
+  return $schema;
+}
+
+?>

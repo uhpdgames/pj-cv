@@ -30,6 +30,14 @@ function cv_tuyendung_menu() {
     'type' => MENU_NORMAL_ITEM,
     'file' => 'inc/tuyendung.inc',
   );
+  $items['tin-tuyen-dung'] = array(
+    'title' => 'Danh sách tin tuyển dụng',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('danhsach_dangtin_tuyendung_form'),
+    'access arguments' => array(1),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'inc/tuyendung.inc',
+  );
 //END TUYEN DUNG
 
   //FILTER | DEBUG
@@ -39,7 +47,14 @@ function cv_tuyendung_menu() {
     'page arguments' => array('timkiem_pages'),
     'access arguments' => array(1),
     'type' => MENU_NORMAL_ITEM,
-    'file' => 'inc/filter.inc',
+    'file' => 'inc/timungvien.inc',
+  );
+  $items['test-user'] = array(
+    'title' => 'Tim kiem',
+    'page callback' => 'test_autocomplete',
+    'access arguments' => array('use autocomplete'),
+    'type' => MENU_CALLBACK,
+    //'file' => 'inc/timungvien.inc',
   );
   //END DEBUG
 
@@ -47,4 +62,16 @@ function cv_tuyendung_menu() {
 }
 function cv_tuyendung_permission() {
   return array();
+}
+
+function test_autocomplete($string = '') {
+  $matches = array();
+  if ($string) {
+    $result = db_select('users')->fields('users', array('name'))->condition('name', db_like($string) . '%', 'LIKE')->range(0, 10)->execute();
+    foreach ($result as $user) {
+      $matches[$user->name] = check_plain($user->name);
+    }
+  }
+
+  drupal_json_output($matches);
 }

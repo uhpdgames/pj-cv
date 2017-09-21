@@ -280,7 +280,7 @@
         return removeDiacritics(term);
       };
 
-      $('.filter-body').perfectScrollbar();
+    /*  $('.filter-body').perfectScrollbar();*/
 /*      $("#keyword").autocomplete({
         source: function(request, response) {
           var matcher = new RegExp($.ui.autocomplete.escapeRegex(normalize(request.term)), "i");
@@ -310,7 +310,7 @@
       });*/
 
       //render
-      var app = new Vue({
+/*      var app = new Vue({
         el: '#page-search',
         data: {
           loading: false,
@@ -567,7 +567,7 @@
           });
         },
         methods: {
-          /*matchSuggestion: function(term) {
+          /!*matchSuggestion: function(term) {
             term = normalize(term).toLowerCase();
             var matcher = new RegExp($.ui.autocomplete.escapeRegex(term), "i");
             for (var i = 0; i < window.data.positions.length; i++) {
@@ -582,7 +582,7 @@
                 }
               }
             }
-          },*/
+          },*!/
           collectTags: function() {
             var tags = {};
             var keyword = $('#keyword').val();
@@ -735,7 +735,7 @@
             this.search(1);
           },
         }
-      });
+      });*/
     }
 
 }})(jQuery);

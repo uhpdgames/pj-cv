@@ -193,6 +193,7 @@ function thongtin_congty_chitiet() {
   //
 }
 
+//đăng tin mới
 function dangtin_tuyendung_form($form, &$form_state, $id_cv = null) {
 
   $form = array();
@@ -373,7 +374,7 @@ function dangtin_tuyendung_form($form, &$form_state, $id_cv = null) {
     '#default_value' => isset($baotin->mota_quyenloi) ? $baotin->mota_quyenloi : NULL,
   );
   $form['thongtin_baotin']['kynang_can'] = array(
-    '#type' => 'textarea',
+    '#type' => 'textfield',
     '#title' => t('Kỹ năng'),
     '#required' => TRUE,
     '#default_value' => isset($baotin->kynang_can) ? $baotin->kynang_can : NULL,
@@ -381,7 +382,7 @@ function dangtin_tuyendung_form($form, &$form_state, $id_cv = null) {
 
   $form['submit'] = array(
     '#type' => 'submit',
-    '#value' => t('Cập nhật'),
+    '#value' => t('Đăng tin'),
   );
 
   //$form['#attached']['css']
@@ -460,6 +461,31 @@ function dangtin_tuyendung_form_submit($form, &$form_state) {
   }
 }
 
+function danhsach_dangtin_tuyendung_form($form, &$form_state) {
+  $form['thongtin_coban'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Danh sách tin tuyển dụng'),
+    '#collapsible' => TRUE,
+  );
+  //query
+  $q = db_select('tintuyendung', 'td')
+    ->fields('td', array())
+    ->condition('id_cty', $id)
+    ->execute();
+
+  //render
+
+  if($q) {
+    $html = <<< HTML
+    tieude Tab 
+    <hr>
+chuc nang
+HTML;
+    $output = t($html);
+    $output .= theme('table', array('header' => $header, 'rows' => $items, 'empty' => 'Không có dữ liệu'));
+    $output .= theme('pager');
+  }
+}
 //Tải dữ liệu
 /**
  * @param $uid array(1,2,3)
