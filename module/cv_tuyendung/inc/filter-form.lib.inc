@@ -183,7 +183,7 @@ CLASS UHPDGAMES_FILTER {
       '#type' => 'fieldset',
       '#title' => t('Thông tin lọc'),
       '#collapsible' => TRUE,
-      '#prefix' => '<div id="filter-wrapper" class="container-inline">',
+      '#prefix' => '<div id="filter-wrapper" class="uhpdgamesfilter-container-inline">',
       '#suffix' => '</div>',
     );
     $form['filter_wraper']['filter'] = $this->filter_form($this->filters());
@@ -238,39 +238,11 @@ CLASS UHPDGAMES_FILTER {
    */
   public function GET_render_items($form_state, $result) {
     $state = (isset($form_state[$this->name_filter]) ? $form_state[$this->name_filter] : array());
-//        if (!isset($state['db_select']) || !is_string($state['db_select'])) return array(); //not found for query. Exit!
+    //if (!isset($state['db_select']) || !is_string($state['db_select'])) return array(); //not found for query. Exit!
 
     $stt = 1;
     $items = array();
     $values = $state['list'];
-
-    /*        $query = db_select($state['db_select'], 'uhpdgames');
-              if(count($this->join_databases) > 0){
-                foreach ($this->join_databases as $condition => $tables){
-                  $tag = substr($condition, 0 , 2);
-                  $query->join($tables , $tag, "$tag.$condition = uhpdgames.$condition");
-                }
-              }
-            $query->extend('PagerDefault')->extend('TableSort');*/
-    // $q->extend('PagerDefault')->extend('TableSort');
-    //$this->data_search_value($query, $state['filter']['field']);
-    //$this->data_search_value($q, $state['filter']['field']);
-    /*$limit = 25;
-    if($this->uhpdgames_is_value_session('pages')) {
-      $limit = $this->uhpdgames_is_value_session('pages');
-    }
-    $field = $values['field'];*/
-    //$header = (isset($is_table_of_select) ? array_merge(array(''), $header) : $header);
-
-    //if ($this->select_all) $field = $header = array(); //error$field$header
-    //$query->fields('uhpdgames', $field);
-
-    //if ($this->full_stack) $limit = $query->countQuery()->execute()->fetchField();
-    //if ($this->full_stack) $limit = $q->countQuery()->execute()->fetchField();
-    //$q->limit($limit)->orderByHeader($header);
-    //$query->limit($limit)->orderByHeader($header);
-    //$result = $query->execute()->fetchAll();
-    //$result = $q->execute()->fetchAll();
     $field = $values['field'];
     if(count($result) > 0) {
       foreach ($result as $i => $row) {
@@ -365,7 +337,7 @@ CLASS UHPDGAMES_FILTER {
         $filters[$name] = array(
           'type' => 'textfield',
           'title' => $title,
-          'autocomplete_path' => (($option[$i] != 'textfield') ? $option[$i] : ''),
+          //'autocomplete_path' => (($option[$i] != 'textfield') ? $option[$i] : ''), //disable by v 1.03
           'description' => $description,
           'default_value' => $default_value
         );

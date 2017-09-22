@@ -1,3 +1,5 @@
-name = Tuyendung
-description = mo ta
+name = CV TUYENDUNG
+description = "Dành cho nhà tuyển dụng"
 core = 7.x
+package = "DEV"
+version = '001-dev'

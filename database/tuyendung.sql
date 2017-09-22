@@ -22,7 +22,9 @@ CREATE TABLE `tintuyendung` (
   `tglamviec` varchar(50) DEFAULT NULL,
   `gioitinh` int(1) NOT NULL,
   `kinhnghiem` varchar(50) DEFAULT NULL,
-  `luong` varchar(50) DEFAULT NULL,
+  `luong_tu` varchar(50) DEFAULT NULL,
+  `luong_den` varchar(50) DEFAULT NULL,
+  `trangthai` varchar(11) DEFAULT 0,
   `created` varchar(50) NOT NULL
 );
 

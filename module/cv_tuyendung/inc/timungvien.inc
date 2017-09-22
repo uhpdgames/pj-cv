@@ -5,9 +5,8 @@
  * Date: 09/19/17
  * Time: 4:46 PM
  */
-#This is common
 ///search
-/// BY TOP co trinh do nhieu nhất.
+/// TOP co trinh do nhieu nhất.
 ///
 ///
 /// DEBUG
@@ -26,7 +25,7 @@ if (!module_load_include('inc', 'cv_tuyendung', 'inc/filter-form.lib')) die('Not
  *
  * @return array
  */
-function timkiem_pages($form, &$form_state) {
+function timkiem_ungvien_form($form, &$form_state) {
   global $timkiem_ungvien;
   $form = array();
 
@@ -34,163 +33,84 @@ function timkiem_pages($form, &$form_state) {
   array_push($timkiem_ungvien->field_options, 'multiple');
   array_push($timkiem_ungvien->field_options, 'select2');
 
-  $timkiem_ungvien->display_more_pages = False;
+  $timkiem_ungvien->display_more_pages = False;//True để hiển thị có phân trang
   $timkiem_ungvien->name_filter = $timkiem_ungvien->name_session = TIMKIEM_UNGVIEN;
 
-  $field  = array('vitrimongmuon', 'diachi', 'or_kynang', 'and_kynang', 'not_kynang');
-  $header = array('Vị trí công việc', 'Địa điểm', 'Có một trong những từ khoá sau', 'Bắt buộc có các từ khoá sau', 'Không có những từ khoá sau');
+  //thêm tiêu chí tìm kiếm từ cv (hoặc khác) tại $field và $header
+  $field  = array(
+    'vitrimongmuon',
+    'diachi',
+    'or_kynang',
+    'and_kynang',
+    'not_kynang',
+    'uutien'
+  );
+  $header = array(
+    'Vị trí công việc',
+    'Địa điểm',
+    'Có một trong những từ khoá sau',
+    'Bắt buộc có các từ khoá sau',
+    'Không có những từ khoá sau',
+    'Ưu tiên hiển thị ứng viên'
+  );
   $timkiem_ungvien->SET_filter($field, $header, 'filter');
+
+  //$kynang = load_kynangAllKey_array();
   $timkiem_ungvien->SET_filter_options(array(
     'textfield',
-    'user/autocomplete',
+    'textfield',
     array(
-      'data' => array(1=>'photo', 2=>'abc'),
+      'data' => array(1=>'photo', 2=>'abc'),//$kynang
       'multiple' => 1,
       'select2' => array(),
     ),
     array(
-      'data' => array(11=>'xxa',22=>'a',33=>'b'),
+      'data' => array(11=>'xyz',22=>'may anh',33=>'chup hinh'),
       'multiple' => 1,
       'select2' => array(),
       ),
     array(
-      'data' => array(333=>'fdsfds',444=>'dsds',555=>'b'),
+      'data' => array(333=>'fdsfds',444=>'dsds',555=>'bca'),
       'multiple' => 1,
       'select2' => array(
-        'width' => '150',
-        'placeholder' => 'Placeholder text',
+        'width' => '250',
+        'placeholder' => 'Gõ để tìm kiếm',
         'allowClear'   => TRUE,
       ),
     ),
-    ));
-
-  /*$field = array('thoigian', 'nguoidung', 'TenHanhVi', 'khuvuc', 'noidung');
-  $timkiem_ungvien->SET_filter($field, $header, 'list');*/
+    array('data' => array(1=> 'Cập nhật mới nhất', 2=>'đang tìm việc', 3=>'Có kinh nghiệm làm việc'))
+  ));
   $timkiem_ungvien->create_form_filter($form, $form_state);
 
-  $data = render_data_tim_ung_vien($form_state);
+  //test
+  $data = render_data_tim_ung_vien();
+  //end test
 
-  dpm($data, 'd');
-  //SET SESSION
-  //$rows = $timkiem_ungvien->uhpdgames_set_session(TIMKIEM_UNGVIEN, $data);
-
-  $form['11212'] = array(
-    '#type' => 'textfield',
-    '#title' => t(' Vị trí công việc'),
-    //'#required' => TRUE,
-    '#default_value' => null,
-    '#id' => 'keyword',
-    '#autocomplete_path' => 'user/autocomplete',
-    '#select2' => array()
-  );
-}
-
-  //$form['list'] = array('#markup' => $timkiem_ungvien->GET_render_list($form_state, $rows));
-/*  $form['thongtin'] = array(
+  $form['ketqua_timkiem'] = array(
     '#type' => 'fieldset',
-    '#title' => t('TIm` kiem'),
+    '#title' => t(''),
     '#collapsible' => TRUE,
-    '#prefix' => '<div id="page-search" class="container">',
+    '#prefix' => '<div id="ketqua-timkiemungvien" class="container-search">',
     '#suffix' => '</div>',
   );
-
-  $form['thongtin']['vitrimongmuon'] = array(
-    '#type' => 'textfield',
-    '#title' => t(' Vị trí công việc'),
-    //'#required' => TRUE,
-    '#default_value' => null,
-    '#id' => 'keyword'
+  $form['ketqua_timkiem']['chitiet'] = array(
+    '#markup' => render_list_users_as_pages(),//$data
   );
-
-  $form['thongtin']['diachi'] = array(
-    '#type' => 'select',
-    '#multiple' => TRUE,
-    '#title' => t('Địa điểm'),
-    '#required' => FALSE,
-    '#options' => array(1,2,3),
-    //'#default_value' => 1,
-    '#id' => 'location-selector',
-    '#select2' => array(),
-
-  );
-
-  $form['thongtin']['or_kynang'] = array(
-    '#type' => 'select',
-    '#multiple' => TRUE,
-    '#title' => t(' Có một trong những từ khoá sau '),
-    '#required' => FALSE,
-    '#options' => array(4,5,6,'or'),
-    //'#default_value' => 1,
-    '#id' => 'or-keyword-selector',
-    '#select2' => array(
-      'width' => '150',
-      'placeholder' => 'Placeholder text',
-      'allowClear'   => TRUE,
-
-),
-  );
-  $form['thongtin']['and_kynang'] = array(
-    '#type' => 'select',
-    '#multiple' => TRUE,
-    '#title' => t('Bắt buộc có các từ khoá sau'),
-    '#required' => FALSE,
-    '#options' => array(11,22,33,'and'),
-    //'#default_value' => 1,
-    '#id' => 'and-keyword-selector',
-    '#select2' => array(
-      'width' => '150',
-      'placeholder' => 'Placeholder text',
-      'allowClear'   => TRUE,
-
-),
-  );
-
-  $form['thongtin']['not_kynang'] = array(
-    '#type' => 'select',
-    '#multiple' => TRUE,
-    '#title' => t('Không có những từ khoá sau'),
-    '#required' => FALSE,
-    '#options' => array(4,5,6,'not'),
-    //'#default_value' => 1,
-    '#id' => 'not-keyword-selector',
-    '#select2' => array(),
-  );*/
-  /*$form['thongtin']['submit'] = array(
-    '#type' => 'submit',
-    '#value' => t('Cập nhật'),
-  );*/
- // $form['thongtin']['#attached']['js'] = array(drupal_get_path('module', 'cv_tuyendung') . 'timkiem/filter.js');
-
-  $form['thongtin']['ketqua_timkiem'] = array(
-    '#markup' => render_list_users_as_pages($data),
-    '#id' => 'add-id-ketqua' //css or add bar
-
-  );
-  $form['thongtin']['#attached'] = array(
-    /*'js' => array(
-      array('data' => drupal_get_path('module', 'cv_tuyendung') . '/js/filter.js'),
-  //    array('data' => drupal_get_path('module', 'cv_tuyendung') . '/js/vue.js'),
-    ),*/
-    'css' => array(drupal_get_path('module', 'cv_tuyendung') . 'css/filter.css')
+  $form['#attached'] = array(
+    'css' => array(drupal_get_path('module', 'cv_tuyendung') . 'css/filter.css'),
+    'js' => array(drupal_get_path('module', 'cv_tuyendung') . 'js/filter.js'),
   );
 
   return $form;
 }
-function timkiem_pages_validate($form, &$form_state) {
-  $values = $form_state['values'];
-
-  timkiem_set_session(TIMKIEM_UNGVIEN, $values);
-/*  global $timkiem_ungvien;
-  $timkiem_ungvien->uhpdgames_set_session(TIMKIEM_UNGVIEN, $values);*/
+function timkiem_ungvien_form_validate($form, &$form_state) {
 
 }
-function timkiem_pages_submit($form, &$form_state) {
-  global $timkiem_ungvien;
-  $values = $form_state['values'];
-  dpm($_SESSION, 'ss');
-  dpm($timkiem_ungvien, 'fssd');
+function timkiem_ungvien_form_submit($form, &$form_state) {
+  //dpm($_SESSION, 'ss');
 
-  //$timkiem_ungvien->GET_submit_filters($values);
+  $values = $form_state['values'];
+  timkiem_set_session(TIMKIEM_UNGVIEN, $values);
 
   $form_state['rebuild'] = TRUE;
 }
@@ -198,6 +118,7 @@ function timkiem_pages_submit($form, &$form_state) {
 function render_data_tim_ung_vien($all_results = false) {
   $q_kynang = db_select('cv_kynang', 'kn');
   $q_kynang->extend('PagerDefault');//->extend('TableSort');
+
   tim_ung_vien_boi_kynang($q_kynang);
 
   $q_kynang->addExpression('COUNT(kn.cvid)', 'count_kynang_co');
@@ -206,9 +127,6 @@ function render_data_tim_ung_vien($all_results = false) {
   $q_kynang->orderBy('count_kynang_co');
 
   $limit = 25;
-  if($GLOBALS['timkiem_ungvien']->uhpdgames_is_value_session('pages')) {
-    $limit = $GLOBALS['timkiem_ungvien']->uhpdgames_is_value_session('pages');
-  }
 
   $field = array('cvid', 'kynang_id');
   if ($all_results) $field = $header = array();
@@ -225,19 +143,18 @@ function tim_ung_vien_boi_kynang(SelectQueryInterface &$q) {
   $and = db_and();
   $not = db_and();
   $or_kynang = $and_kynang = $not_kynang = array();
+  $uutien = $vitricv = $ddlamviec = '';
+
   if(isset($_SESSION[TIMKIEM_UNGVIEN])) {
     $session = $_SESSION[TIMKIEM_UNGVIEN];
 
     $or_kynang = $session['or_kynang'];
     $and_kynang = $session['and_kynang'];
     $not_kynang = $session['not_kynang'];
+    $uutien = $session['uutien'];
+    $vitricv = $session['vitrimongmuon'];
+    $ddlamviec = $session['diachi'];
   }
-//  $value = isset($target['values']) ? $target['values'] : '';
-/*  if($value) {
-    $or_kynang = isset($value['or_kynang']) ? $value['or_kynang'] : '';
-    $and_kynang = isset($value['and_kynang']) ? $value['and_kynang'] : '';
-    $not_kynang = isset($value['not_kynang']) ? $value['not_kynang'] : '';
-  }*///else _session
 
   if(count($or_kynang) > 0) {
     foreach ($or_kynang as $id) {
@@ -259,22 +176,45 @@ function tim_ung_vien_boi_kynang(SelectQueryInterface &$q) {
   }
 
   //other condition
-
+/*  if(!empty($uutien)) {
+    $q->condition('', $uutien);
+  }
+  if(!empty($vitricv)) {
+    $q->condition('', $vitricv);
+  }
+  if(!empty($ddlamviec)) {
+    $q->condition('', $ddlamviec);
+  }*/
+//end
 }
 
-function render_list_users_as_pages($data) {
-  //html
-  //css
+function render_list_users_as_pages() {//$data
+  //html + css here!
 
-  $html = 'Không có dữ liệu';
+  $html = t('');
 
-  $data = array();
+  //test
+  $data = array(
+    0 => array(
+      'mota' => 'abc xyz',
+      'anh' => 1,
+    ),
+    1 => array(
+      'mota' => 'day la mo ta',
+      'anh' => 2,
+    ),
+    2 => array(
+      'mota' => 'mo ta thu 2',
+      'anh' => 3,
+    ),
+  );
+  //end test
 
   if (count($data) > 1) {
-    //add pefect bar
+    //add perfect_scrollbar here!
     foreach ($data as $key => $value) {
       $t = <<< HTML
-        <br>Ảnh đại diện: @anhdaidien
+        <div class="anhdaidien">Ảnh đại diện: @anhdaidien</div>
     <hr>
         <br>Mô tả: @mota
         <br>Kỹ năng : @kynang
@@ -282,10 +222,12 @@ function render_list_users_as_pages($data) {
 HTML;
 
       $html .= t($t, array(
-
+        '@anhdaidien' => $value['anh'],
+        '@mota' => $value['mota'],
+        '@kynang' => 'test',
       ));
     }
-    $html .= theme('pager');
+    $html .= theme('pager');//phân trang
   }
   return $html;
 }
@@ -296,4 +238,9 @@ function timkiem_set_session($key, $value = null){
     $_SESSION[$key] = $value;
   }
   if (isset($_SESSION[$key])) return $_SESSION[$key];
+}
+
+//danh sách kỹ năng trong database
+function load_kynangAllKey_array() {
+  return array('id' => 'tenkynang');
 }

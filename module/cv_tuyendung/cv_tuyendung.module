@@ -22,6 +22,14 @@ function cv_tuyendung_menu() {
     'type' => MENU_NORMAL_ITEM,
     'file' => 'inc/tuyendung.inc',
   );
+  $items['danhgia/thong-tin-cong-ty/%'] = array(
+    'title' => 'Đánh giá công ty',
+    'page callback' => 'thongtin_congty_chitiet',
+    'page arguments' => array(2),
+    'access arguments' => array(1),
+    'type' => MENU_CALLBACK,
+    'file' => 'inc/tuyendung.inc',
+  );
   $items['tin-tuyen-dung/tao-moi'] = array(
     'title' => 'Tạo tin tuyển dụng mới',
     'page callback' => 'drupal_get_form',
@@ -38,25 +46,36 @@ function cv_tuyendung_menu() {
     'type' => MENU_NORMAL_ITEM,
     'file' => 'inc/tuyendung.inc',
   );
-//END TUYEN DUNG
+
+  $items['ho-so-ung-tuyen'] = array(
+    'title' => 'Danh sách hồ sơ ứng tuyển',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('danhsach_ungtuyen_tuyendung_form'),
+    'access arguments' => array(1),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'inc/tuyendung.inc',
+  );
+
+  //END TUYEN DUNG
 
   //FILTER | DEBUG
   $items['timkiem-ung-vien'] = array(
-    'title' => 'Tim kiem',
+    'title' => 'Tìm kiếm ứng viên',
     'page callback' => 'drupal_get_form',
-    'page arguments' => array('timkiem_pages'),
+    'page arguments' => array('timkiem_ungvien_form'),
     'access arguments' => array(1),
     'type' => MENU_NORMAL_ITEM,
     'file' => 'inc/timungvien.inc',
   );
-  $items['test-user'] = array(
-    'title' => 'Tim kiem',
-    'page callback' => 'test_autocomplete',
+
+  //autocomplete
+  $items['timcongty/autocomplete'] = array(
+    'title' => 'Thông tin công ty',
+    'page callback' => 'timcongty_autocomplete',
     'access arguments' => array('use autocomplete'),
     'type' => MENU_CALLBACK,
-    //'file' => 'inc/timungvien.inc',
   );
-  //END DEBUG
+  //END $
 
   return $items;
 }
@@ -64,14 +83,18 @@ function cv_tuyendung_permission() {
   return array();
 }
 
-function test_autocomplete($string = '') {
+function timcongty_autocomplete($string = '') {
   $matches = array();
   if ($string) {
-    $result = db_select('users')->fields('users', array('name'))->condition('name', db_like($string) . '%', 'LIKE')->range(0, 10)->execute();
-    foreach ($result as $user) {
-      $matches[$user->name] = check_plain($user->name);
+    $result = db_select('thongtin_congty')
+      ->fields('thongtin_congty', array('name'))
+      ->condition('tencongty', db_like($string) . '%', 'LIKE')
+      ->range(0, 10)->execute();
+    foreach ($result as $cty) {
+      $matches[$cty->tencongty] = check_plain($cty->tencongty);
     }
   }
 
+ // return $matches;
   drupal_json_output($matches);
 }
