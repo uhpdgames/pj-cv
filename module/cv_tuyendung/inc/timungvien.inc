@@ -17,8 +17,8 @@ ini_set('display_errors', 1);
 //end debug
 define('TIMKIEM_UNGVIEN', 'timungvien_sessions');
 
-if (!module_load_include('inc', 'cv_tuyendung', 'inc/filter-form.lib')) die('Not found libs/UHPDGAMES_FILTER');
-
+//if (!module_load_include('inc', 'cv_tuyendung', 'inc/filter-form.lib')) die('Not found libs/UHPDGAMES_FILTER');
+defined('FORM_FILTER') or define('FORM_FILTER', DRUPAL_ROOT . '/sites/all/libraries/uhpdgames/filter-form-v1.0.3.php');
 /**
  * @param $form
  * @param $form_state
@@ -28,6 +28,7 @@ if (!module_load_include('inc', 'cv_tuyendung', 'inc/filter-form.lib')) die('Not
 function timkiem_ungvien_form($form, &$form_state) {
   global $timkiem_ungvien;
   $form = array();
+  require_once FORM_FILTER;
 
   $timkiem_ungvien = new UHPDGAMES_FILTER();
   array_push($timkiem_ungvien->field_options, 'multiple');
